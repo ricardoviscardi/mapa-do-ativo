@@ -1,0 +1,256 @@
+const directTextFixes: Array<[RegExp, string]> = [
+  [/Energia\s+El.trica/g, "Energia Elétrica"],
+  [/Energia\s+El.trico/g, "Energia Elétrico"],
+  [/N�o/g, "Não"],
+  [/NÃ£o/g, "Não"],
+  [/A��es/g, "Ações"],
+  [/AÃ§Ãµes/g, "Ações"],
+  [/a��es/g, "ações"],
+  [/aÃ§Ãµes/g, "ações"],
+  [/El�trica/g, "Elétrica"],
+  [/El.trica/g, "Elétrica"],
+  [/ElÃ©trica/g, "Elétrica"],
+  [/El�trico/g, "Elétrico"],
+  [/El.trico/g, "Elétrico"],
+  [/ElÃ©trico/g, "Elétrico"],
+  [/Energ�tica/g, "Energética"],
+  [/Energ.tica/g, "Energética"],
+  [/EnergÃ©tica/g, "Energética"],
+  [/Petr�leo/g, "Petróleo"],
+  [/Petr.leo/g, "Petróleo"],
+  [/PetrÃ³leo/g, "Petróleo"],
+  [/G�s/g, "Gás"],
+  [/G.s/g, "Gás"],
+  [/GÃ¡s/g, "Gás"],
+  [/Minera��o/g, "Mineração"],
+  [/Minera..o/g, "Mineração"],
+  [/MineraÃ§Ã£o/g, "Mineração"],
+  [/Constru��o/g, "Construção"],
+  [/Constru..o/g, "Construção"],
+  [/ConstruÃ§Ã£o/g, "Construção"],
+  [/Comunica��o/g, "Comunicação"],
+  [/Comunica..o/g, "Comunicação"],
+  [/ComunicaÃ§Ã£o/g, "Comunicação"],
+  [/Distribui��o/g, "Distribuição"],
+  [/Distribui..o/g, "Distribuição"],
+  [/DistribuiÃ§Ã£o/g, "Distribuição"],
+  [/Transmiss�o/g, "Transmissão"],
+  [/Transmiss.o/g, "Transmissão"],
+  [/TransmissÃ£o/g, "Transmissão"],
+  [/Servi�os/g, "Serviços"],
+  [/Servi.os/g, "Serviços"],
+  [/ServiÃ§os/g, "Serviços"],
+  [/Servi�o/g, "Serviço"],
+  [/Servi.o/g, "Serviço"],
+  [/ServiÃ§o/g, "Serviço"],
+  [/B�sicos/g, "Básicos"],
+  [/B.sicos/g, "Básicos"],
+  [/BÃ¡sicos/g, "Básicos"],
+  [/B�sico/g, "Básico"],
+  [/B.sico/g, "Básico"],
+  [/BÃ¡sico/g, "Básico"],
+  [/Imobili�rios/g, "Imobiliários"],
+  [/Imobili.rios/g, "Imobiliários"],
+  [/ImobiliÃ¡rios/g, "Imobiliários"],
+  [/Imobili�rio/g, "Imobiliário"],
+  [/Imobili.rio/g, "Imobiliário"],
+  [/ImobiliÃ¡rio/g, "Imobiliário"],
+  [/Com�rcio/g, "Comércio"],
+  [/Com.rcio/g, "Comércio"],
+  [/ComÃ©rcio/g, "Comércio"],
+  [/Alimenta��o/g, "Alimentação"],
+  [/Alimenta..o/g, "Alimentação"],
+  [/Educa��o/g, "Educação"],
+  [/Educa..o/g, "Educação"],
+  [/Sa�de/g, "Saúde"],
+  [/Sa.de/g, "Saúde"],
+  [/Inform�tica/g, "Informática"],
+  [/Inform.tica/g, "Informática"],
+  [/Telecomunica��es/g, "Telecomunicações"],
+  [/Telecomunica..es/g, "Telecomunicações"],
+  [/Institui��es/g, "Instituições"],
+  [/Institui..es/g, "Instituições"],
+  [/Administra��o/g, "Administração"],
+  [/Administra..o/g, "Administração"],
+  [/Gest�o/g, "Gestão"],
+  [/Gest.o/g, "Gestão"],
+  [/Cr�dito/g, "Crédito"],
+  [/Cr.dito/g, "Crédito"],
+  [/M�quinas/g, "Máquinas"],
+  [/M.quinas/g, "Máquinas"],
+  [/Log�stica/g, "Logística"],
+  [/Log.stica/g, "Logística"],
+  [/A�reo/g, "Aéreo"],
+  [/A.reo/g, "Aéreo"],
+  [/Qu�mica/g, "Química"],
+  [/Qu.mica/g, "Química"],
+  [/Sider�rgica/g, "Siderúrgica"],
+  [/Sider.rgica/g, "Siderúrgica"],
+  [/Agr�cola/g, "Agrícola"],
+  [/Agr.cola/g, "Agrícola"],
+  [/Tecnol�gico/g, "Tecnológico"],
+  [/Tecnol.gico/g, "Tecnológico"],
+  [/Tecnol�gica/g, "Tecnológica"],
+  [/Tecnol.gica/g, "Tecnológica"],
+  [/M�dia/g, "Mídia"],
+  [/M.dia/g, "Mídia"],
+  [/Ve�culos/g, "Veículos"],
+  [/Ve.culos/g, "Veículos"],
+  [/Ve�culo/g, "Veículo"],
+  [/Ve.culo/g, "Veículo"],
+  [/Bebidas n�o alco�licas/g, "Bebidas não alcoólicas"],
+  [/N�o dispon.vel/g, "Não disponível"],
+];
+
+const marketTextTranslations: Record<string, string> = {
+  energy: "Energia",
+  utilities: "Serviços de utilidade pública",
+  technology: "Tecnologia",
+  healthcare: "Saúde",
+  financialservices: "Serviços financeiros",
+  financial: "Financeiro",
+  banks: "Bancos",
+  insurance: "Seguros",
+  basicmaterials: "Materiais básicos",
+  materials: "Materiais básicos",
+  industrials: "Indústria",
+  consumerdefensive: "Consumo defensivo",
+  consumercyclical: "Consumo cíclico",
+  communicationservices: "Comunicação",
+  realestate: "Imobiliário",
+  reitdiversified: "FII - Diversificado",
+  reitindustrial: "FII - Galpões e logística",
+  reitretail: "FII - Shoppings e varejo",
+  reitoffice: "FII - Escritórios",
+  reitmortgage: "FII - Recebíveis imobiliários",
+  reithotelmotel: "FII - Hotelaria",
+  reithealthcarefacilities: "FII - Saúde",
+  reitspecialty: "FII - Especializado",
+  oilgasintegrated: "Petróleo e gás integrado",
+  oilgasep: "Exploração e produção de petróleo e gás",
+  oilgasrefiningmarketing: "Refino e distribuição de petróleo e gás",
+  oilgasmidstream: "Transporte e armazenamento de petróleo e gás",
+  oilgasequipmentservices: "Equipamentos e serviços de petróleo e gás",
+  electricutilities: "Energia elétrica",
+  regulatedelectric: "Energia elétrica regulada",
+  diversifiedutilities: "Utilidades públicas diversificadas",
+  utilitiesregulatedelectric: "Energia elétrica regulada",
+  banksregional: "Bancos regionais",
+  capitalmarkets: "Mercado de capitais",
+  assetmanagement: "Gestão de ativos",
+  steel: "Siderurgia",
+  aluminum: "Alumínio",
+  copper: "Cobre",
+  gold: "Ouro",
+  otherindustrialmetalsmining: "Mineração e metais industriais",
+  paperpaperproducts: "Papel e celulose",
+  packagingcontainers: "Embalagens",
+  beveragesbrewers: "Bebidas",
+  beveragesnonalcoholic: "Bebidas não alcoólicas",
+  fooddistribution: "Distribuição de alimentos",
+  grocerydiscountstores: "Supermercados e atacarejo",
+  departmentstores: "Lojas de departamento",
+  specialtyretail: "Varejo especializado",
+  apparelretail: "Varejo de vestuário",
+  railroads: "Ferrovias",
+  airportsairservices: "Aeroportos e serviços aéreos",
+  infrastructureoperations: "Operação de infraestrutura",
+  telecomservices: "Telecomunicações",
+  softwareapplication: "Software",
+  softwareinfrastructure: "Infraestrutura de software",
+  internetcontentinformation: "Internet e informação",
+  autoandtruckdealerships: "Concessionárias de veículos",
+  rentalleasingservices: "Aluguel e leasing",
+  drugmanufacturersgeneral: "Medicamentos",
+  medicalcarefacilities: "Serviços hospitalares",
+  farmandheavyconstructionmachinery: "Máquinas agrícolas e construção pesada",
+  farmheavyconstructionmachinery: "Máquinas agrícolas e construção pesada",
+  specialtyindustrialmachinery: "Máquinas industriais especializadas",
+  industrialdistribution: "Distribuição industrial",
+  buildingproductsandequipment: "Produtos e equipamentos para construção",
+  engineeringconstruction: "Engenharia e construção",
+  constructionengineering: "Engenharia e construção",
+  residentialconstruction: "Construção residencial",
+  buildingmaterials: "Materiais de construção",
+  conglomerates: "Conglomerados industriais",
+  automobiles: "Automóveis",
+  automakers: "Montadoras",
+  automanufacturers: "Montadoras",
+  autoparts: "Autopeças",
+  trucking: "Transporte rodoviário",
+  transportationinfrastructure: "Infraestrutura de transporte",
+  marineShipping: "Transporte marítimo",
+  packagedfoods: "Alimentos industrializados",
+  restaurants: "Restaurantes",
+  householdpersonalproducts: "Produtos de uso pessoal e doméstico",
+  personalservices: "Serviços pessoais",
+  educationtrainingservices: "Educação e treinamento",
+  utilitiesregulatedgas: "Gás regulado",
+  gasutilities: "Distribuição de gás",
+  waterutilities: "Saneamento",
+  wastemanagement: "Gestão de resíduos",
+  realestateservices: "Serviços imobiliários",
+  realestatedevelopment: "Desenvolvimento imobiliário",
+  reitresidential: "FII - Residencial",
+  semiconductors: "Semicondutores",
+  electroniccomponents: "Componentes eletrônicos",
+  scientifictechnicalinstruments: "Instrumentos técnicos e científicos",
+  creditservices: "Serviços de crédito",
+  insurancebrokers: "Corretores de seguros",
+  insurancepropertycasualty: "Seguros patrimoniais",
+  insurancelife: "Seguros de vida",
+  financialconglomerates: "Conglomerados financeiros",
+  shellcompanies: "Empresas de propósito específico",
+  cokingcoal: "Carvão mineral",
+  thermalcoal: "Carvão térmico",
+  chemicals: "Químicos",
+  specialtychemicals: "Químicos especializados",
+  agriculturalinputs: "Insumos agrícolas",
+};
+
+function normalizeMarketText(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/&/g, "and")
+    .replace(/\+/g, "and")
+    .replace(/[^a-zA-Z0-9]+/g, "")
+    .toLowerCase();
+}
+
+function translateMarketText(value: string): string {
+  const normalized = normalizeMarketText(value);
+  return marketTextTranslations[normalized] ?? value;
+}
+
+export function sanitizeDisplayText(value: string | null | undefined): string {
+  if (!value) return "";
+
+  let text = String(value).normalize("NFC").trim();
+
+  for (const [pattern, replacement] of directTextFixes) {
+    text = text.replace(pattern, replacement);
+  }
+
+  text = text.replace(/Energia\s+El.trica/gi, "Energia Elétrica");
+  text = text.replace(/El.trica/gi, "Elétrica");
+  text = text.replace(/El.trico/gi, "Elétrico");
+  text = text.replace(/\bATZ\b/g, "");
+
+  // Último recurso: não deixa o caractere de substituição aparecer na interface.
+  text = text.replace(/�/g, "");
+  text = text.replace(/\s+/g, " ").trim();
+  text = translateMarketText(text);
+
+  return text;
+}
+
+export function sameDisplayText(
+  a: string | null | undefined,
+  b: string | null | undefined,
+): boolean {
+  const left = sanitizeDisplayText(a).toLocaleLowerCase("pt-BR");
+  const right = sanitizeDisplayText(b).toLocaleLowerCase("pt-BR");
+
+  return Boolean(left && right && left === right);
+}

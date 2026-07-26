@@ -1,0 +1,59 @@
+name: Atualizar ações
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Segunda a sexta, 20:40 BRT aproximado (23:40 UTC).
+    - cron: "40 23 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  update-acoes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Dependências Python
+        run: pip install -r requirements.txt
+
+      - name: Atualizar preços, histórico e proventos de ações
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          BRAPI_API_TOKEN: ${{ secrets.BRAPI_API_TOKEN }}
+          CVM_FORCE_IPV4: "1"
+        run: python scripts/update_base_inicial.py --stocks --sleep 0.7
+
+      - name: Garantir ações críticas
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python scripts/ensure_required_stocks.py
+
+      - name: Exportar snapshot de ações
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python scripts/export_stock_snapshots.py --all-stocks --limit-history 2600
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/snapshots reports || true
+          if git diff --cached --quiet; then
+            echo "Sem alterações para publicar."
+          else
+            git commit -m "atualiza dados de ações e snapshots"
+            git push
+          fi
