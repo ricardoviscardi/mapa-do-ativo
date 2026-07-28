@@ -1,31 +1,30 @@
-# Versão atual — v1.56.8
+# Versão atual — v1.56.9
 
-## v1.56.8 — polimento final de publicação
+## v1.56.9 — favicon e identidade de busca
 
-Versão completa para substituição total dos arquivos do projeto Mapa do Ativo, baseada na v1.56.7 já publicada com sucesso na Vercel.
+Versão completa para substituição total dos arquivos do projeto Mapa do Ativo, baseada na v1.56.8 já publicada na Vercel.
 
 ### Correções desta versão
 
-- Corrige nomes públicos prioritários:
-  - `BBAS3` → `Banco do Brasil ON`
-  - `XPML11` → `XP Malls FII`
-  - `MXRF11` → `Maxi Renda FII`
-- Remove imagem externa quebrada no topo das páginas de FIIs, usando fallback textual do ticker.
-- Centraliza a identificação de tipo de ativo para evitar classificar units de ações como FIIs.
-- Corrige diretórios e rankings para respeitarem a classificação real de ações e FIIs.
-- Ajusta o texto do diretório para “ativos monitorados”, deixando claro que a base inicial é uma seleção curada.
-- Remove do sitemap os tickers em observação até a qualidade ficar consistente: `AZUL4`, `CPLE6`, `BCFF11`, `IRDM11` e `PMLL11`.
-- Mantém Node `24.x`, `pnpm` e build validado por TypeScript.
+- Adiciona favicon oficial em múltiplos formatos para navegador e indexação:
+  - `public/favicon.ico`
+  - `public/favicon-16x16.png`
+  - `public/favicon-32x32.png`
+  - `public/apple-touch-icon.png`
+  - `public/android-chrome-192x192.png`
+  - `public/android-chrome-512x512.png`
+- Adiciona `app/icon.png` e `app/apple-icon.png` para integração nativa com Next.js App Router.
+- Cria `public/site.webmanifest` para reforçar identidade visual da marca em navegadores e dispositivos.
+- Atualiza `app/layout.tsx` com metadados de ícones e manifest.
+- Mantém o ícone minimalista “MA” como favicon principal, mais legível em resultados do Google e em abas do navegador.
 
 ### Mantido das versões anteriores
 
 - Deploy Vercel com pnpm.
-- Correção de TypeScript no histórico com volume.
-- Volume restaurado quando a fonte pública ou snapshot traz volume válido.
-- Identidade Mapa do Ativo aplicada.
-- Comparador com botão de remoção destacado.
-- Endpoint `/api/data/quality` resiliente.
-- Sitemap, robots e páginas de metodologia/glossário.
+- Build validado por TypeScript.
+- Correções de nomes públicos prioritários.
+- Diretórios, rankings, comparador e páginas de ativos/FIIs funcionando.
+- Sitemap, robots, metodologia, glossário e páginas institucionais.
 
 ### Arquivos propositalmente não incluídos
 
