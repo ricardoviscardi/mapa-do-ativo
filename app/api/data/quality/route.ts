@@ -4,6 +4,7 @@ import { NextResponse } from "next/server";
 import { evaluateAssetQuality } from "@/lib/stocks/asset-quality";
 import { getStockByTicker } from "@/lib/stocks/stock-service";
 import { popularFIIs, popularStocks, rankingFIIs, rankingStocks } from "@/lib/stocks/stock-list";
+import { resolveAssetKind } from "@/lib/stocks/asset-display";
 import { checkSupabaseTable, getSupabaseConnectionStatus, supabaseSelect } from "@/lib/supabase/server";
 import { getSnapshotStatus } from "@/lib/stocks/local-snapshot-repository";
 import { getRemoteSnapshotStatus } from "@/lib/stocks/remote-snapshot-repository";
@@ -155,7 +156,7 @@ async function auditCriticalAssets(tickers: string[]): Promise<CriticalAssetAudi
       if (result.status !== "fulfilled") {
         audits.push({
           ticker,
-          kind: ticker.endsWith("11") ? "fii" : "stock",
+          kind: resolveAssetKind({ ticker }),
           status: "inconsistente",
           qualityScore: 0,
           qualityLabel: "Limitada",
@@ -183,7 +184,7 @@ async function auditCriticalAssets(tickers: string[]): Promise<CriticalAssetAudi
 
       audits.push({
         ticker: stock.ticker,
-        kind: stock.assetKind === "fii" || stock.ticker.endsWith("11") ? "fii" : "stock",
+        kind: resolveAssetKind(stock),
         status,
         qualityScore: quality.score,
         qualityLabel: quality.label,

@@ -3,8 +3,7 @@ import { getStockByTicker } from "@/lib/stocks/stock-service";
 import { isProductionBuildPhase } from "@/lib/utils/build-env";
 import { popularFIIs, popularStocks, rankingFIIs, rankingStocks } from "@/lib/stocks/stock-list";
 import { formatInteger, formatLargeCurrency, formatPlainPercent } from "@/lib/utils/formatters";
-import { displayAssetCategory } from "@/lib/stocks/asset-display";
-import { sanitizeDisplayText } from "@/lib/utils/text";
+import { displayAssetCategory, displayAssetName, resolveAssetKind } from "@/lib/stocks/asset-display";
 import type { StockData } from "@/types/stock";
 import type { RankingDefinition, RankingKind, RankingMetric } from "@/lib/rankings/ranking-definitions";
 
@@ -109,7 +108,7 @@ function metricValue(stock: StockData, metric: RankingMetric): { value: number |
 
   if (metric === "dividendYield") {
     const rawDisplayValue = indicatorValue(stock, ["DY 12m", "Div. Yield", "Dividend Yield"]) ?? stock.dividendSummary.yield12m;
-    const kind: RankingKind = stock.assetKind === "fii" || stock.ticker.endsWith("11") ? "fii" : "stock";
+    const kind: RankingKind = resolveAssetKind(stock);
     const value = normalizeDividendYieldForPublic(rawDisplayValue, kind);
     return {
       value,
@@ -186,11 +185,11 @@ async function loadAssets(kind: RankingKind): Promise<StockData[]> {
   return results
     .filter((result): result is PromiseFulfilledResult<StockData> => result.status === "fulfilled")
     .map((result) => result.value)
-    .filter((stock) => (kind === "stock" ? stock.assetKind !== "fii" : stock.assetKind === "fii" || stock.ticker.endsWith("11")));
+    .filter((stock) => resolveAssetKind(stock) === kind);
 }
 
 function assetName(stock: StockData): string {
-  return sanitizeDisplayText(stock.companyName) || sanitizeDisplayText(stock.fullName) || stock.ticker;
+  return displayAssetName(stock);
 }
 
 function assetSector(stock: StockData): string {

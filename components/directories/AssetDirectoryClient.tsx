@@ -131,7 +131,7 @@ export function AssetDirectoryClient({ kind, items }: AssetDirectoryClientProps)
         <Card className="bg-gradient-to-br from-white to-blue-50/40">
           <p className="text-xs font-bold uppercase tracking-[0.16em] text-[var(--color-muted)]">{kind === "stock" ? "Ações brasileiras" : "Fundos imobiliários"}</p>
           <p className="mt-2 text-3xl font-bold">{summary.total}</p>
-          <p className="mt-1 text-sm text-[var(--color-muted)]">Ativos disponíveis no diretório.</p>
+          <p className="mt-1 text-sm text-[var(--color-muted)]">Ativos monitorados no diretório.</p>
         </Card>
         <Card>
           <p className="text-xs font-bold uppercase tracking-[0.16em] text-[var(--color-muted)]">{kind === "stock" ? "Indicadores essenciais" : "Rendimentos"}</p>

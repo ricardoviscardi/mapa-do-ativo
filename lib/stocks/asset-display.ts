@@ -1,6 +1,6 @@
 import type { StockData } from "@/types/stock";
 import { sameDisplayText, sanitizeDisplayText } from "@/lib/utils/text";
-import { stockSuggestionsFallback } from "@/lib/stocks/stock-list";
+import { popularFIIs, rankingFIIs, stockSuggestionsFallback } from "@/lib/stocks/stock-list";
 
 const GENERIC_FII_LABELS = new Set([
   "fii",
@@ -66,6 +66,20 @@ const FII_SEGMENT_BY_TICKER: Record<string, string> = {
   RZTR11: "Agro",
   KNCA11: "Agro",
 };
+
+const STOCK_UNIT_TICKERS = new Set(["BPAC11", "ENGI11", "KLBN11", "SANB11", "SAPR11", "TAEE11"]);
+
+const KNOWN_FII_TICKERS = new Set([
+  ...popularFIIs,
+  ...rankingFIIs,
+  ...Object.keys(FII_SEGMENT_BY_TICKER),
+].map((ticker) => ticker.toUpperCase()));
+
+const PREFERRED_NAME_BY_TICKER = new Map<string, string>([
+  ["BBAS3", "Banco do Brasil ON"],
+  ["XPML11", "XP Malls FII"],
+  ["MXRF11", "Maxi Renda FII"],
+]);
 
 function normalizeComparable(value: string | null | undefined): string {
   return sanitizeDisplayText(value)
@@ -142,6 +156,9 @@ export function displayAssetName(stock: Pick<StockData, "ticker" | "companyName"
   const ticker = stock.ticker.toUpperCase();
   const rawName = sanitizeDisplayText(stock.companyName) || sanitizeDisplayText(stock.fullName) || ticker;
   const fallbackName = SHORT_NAME_BY_TICKER.get(ticker);
+  const preferredName = PREFERRED_NAME_BY_TICKER.get(ticker);
+
+  if (preferredName) return preferredName;
 
   if (isFiiAsset({ ticker, assetKind: stock.assetKind }) && fallbackName && looksLikeLongLegalFundName(rawName)) {
     return fallbackName;
@@ -151,7 +168,15 @@ export function displayAssetName(stock: Pick<StockData, "ticker" | "companyName"
 }
 
 export function isFiiAsset(stock: Pick<StockData, "assetKind" | "ticker">): boolean {
-  return stock.assetKind === "fii" || stock.ticker.toUpperCase().endsWith("11");
+  const ticker = stock.ticker.toUpperCase();
+  if (stock.assetKind === "fii") return true;
+  if (stock.assetKind === "stock") return false;
+  if (STOCK_UNIT_TICKERS.has(ticker)) return false;
+  return KNOWN_FII_TICKERS.has(ticker);
+}
+
+export function resolveAssetKind(stock: Pick<StockData, "assetKind" | "ticker">): "stock" | "fii" {
+  return isFiiAsset(stock) ? "fii" : "stock";
 }
 
 export function displayFiiSegment(

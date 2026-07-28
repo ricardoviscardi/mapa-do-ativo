@@ -1,3 +1,4 @@
+import { resolveAssetKind } from "@/lib/stocks/asset-display";
 import type { StockData } from "@/types/stock";
 
 export type AssetQuality = {
@@ -61,7 +62,7 @@ function qualityLabel(score: number): AssetQuality["label"] {
 }
 
 export function evaluateAssetQuality(stock: StockData): AssetQuality {
-  const kind = stock.assetKind ?? (stock.ticker.endsWith("11") ? "fii" : "stock");
+  const kind = resolveAssetKind(stock);
   const usefulIndicators = stock.indicators.filter((indicator) => hasUsefulDisplayValue(indicator.value)).length;
   const usefulCompanyRows = stock.companyInfo.filter((row) => hasUsefulDisplayValue(row.value)).length;
   const usefulDayRows = stock.dayQuoteRows.filter((row) => hasUsefulDisplayValue(row.value)).length;

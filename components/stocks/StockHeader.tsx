@@ -1,7 +1,7 @@
 import Image from "next/image";
 import type { StockData } from "@/types/stock";
 import { formatCurrency, formatPercent, toFiniteNumber } from "@/lib/utils/formatters";
-import { displayAssetName, displayAssetSubtitle } from "@/lib/stocks/asset-display";
+import { displayAssetName, displayAssetSubtitle, isFiiAsset } from "@/lib/stocks/asset-display";
 
 type StockHeaderProps = {
   stock: StockData;
@@ -18,14 +18,15 @@ export function StockHeader({ stock }: StockHeaderProps) {
   const subtitle = displayAssetSubtitle(stock);
   const sector = subtitle.sector;
   const subsector = subtitle.subsector ?? "";
+  const logoUrl = stock.logoUrl && !isFiiAsset(stock) ? stock.logoUrl : null;
 
   return (
     <div className="rounded-3xl border border-[var(--color-border)] bg-white p-6 shadow-sm md:p-8">
       <div className="flex flex-col justify-between gap-6 md:flex-row md:items-start">
         <div className="flex min-w-0 items-start gap-4">
-          {stock.logoUrl ? (
+          {logoUrl ? (
             <Image
-              src={stock.logoUrl}
+              src={logoUrl}
               alt={`Logo ${companyName}`}
               width={52}
               height={52}

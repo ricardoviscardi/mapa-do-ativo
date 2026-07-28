@@ -42,9 +42,9 @@ Entregar uma experiência clara para quem quer analisar ativos, comparar alterna
 ## Comandos locais
 
 ```bash
-npm install
-npm run build
-npm run dev
+npm exec --yes --package=pnpm@10.14.0 -- pnpm install --no-frozen-lockfile
+npm exec --yes --package=pnpm@10.14.0 -- pnpm run build
+npm exec --yes --package=pnpm@10.14.0 -- pnpm run dev
 ```
 
 ## Rotas de validação
@@ -74,7 +74,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=
 SUPABASE_URL=
 SUPABASE_SERVICE_ROLE_KEY=
 BRAPI_API_TOKEN=
-NEXT_PUBLIC_SITE_URL=https://www.mapadoativo.com.br
+NEXT_PUBLIC_SITE_URL=https://mapa-do-ativo.vercel.app
 NEXT_PUBLIC_SHOW_DATA_WARNINGS=false
 MAPA_DO_ATIVO_BUILD_SKIP_EXTERNAL=false
 ```

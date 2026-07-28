@@ -2,8 +2,7 @@ import { evaluateAssetQuality, hasUsefulDisplayValue } from "@/lib/stocks/asset-
 import { getStockByTicker } from "@/lib/stocks/stock-service";
 import { popularFIIs, popularStocks, rankingFIIs, rankingStocks } from "@/lib/stocks/stock-list";
 import { formatCurrency, formatInteger, formatLargeCurrency, formatPlainPercent } from "@/lib/utils/formatters";
-import { displayAssetCategory } from "@/lib/stocks/asset-display";
-import { sanitizeDisplayText } from "@/lib/utils/text";
+import { displayAssetCategory, displayAssetName, resolveAssetKind } from "@/lib/stocks/asset-display";
 import { parseLocaleNumber } from "@/lib/rankings/ranking-engine";
 import { isProductionBuildPhase } from "@/lib/utils/build-env";
 import type { StockData } from "@/types/stock";
@@ -55,7 +54,7 @@ function assetSector(stock: StockData): string {
 }
 
 function assetName(stock: StockData): string {
-  return sanitizeDisplayText(stock.companyName) || sanitizeDisplayText(stock.fullName) || stock.ticker;
+  return displayAssetName(stock);
 }
 
 function publicDividendYield(value: string | null | undefined, kind: DirectoryKind): number | null {
@@ -87,7 +86,7 @@ export function qualityStatusLabel(status: DirectoryQualityStatus): string {
 
 function itemFromStock(stock: StockData): AssetDirectoryItem {
   const quality = evaluateAssetQuality(stock);
-  const kind: DirectoryKind = stock.assetKind === "fii" || stock.ticker.endsWith("11") ? "fii" : "stock";
+  const kind: DirectoryKind = resolveAssetKind(stock);
   const rawDividendYieldDisplay = indicatorValue(stock, ["DY 12m", "Dividend Yield", "Div. Yield"]) ?? stock.dividendSummary.yield12m;
   const rawPeDisplay = indicatorValue(stock, ["P/L"]) ?? "Não disponível";
   const rawPvpDisplay = indicatorValue(stock, ["P/VP"]) ?? "Não disponível";
@@ -145,7 +144,7 @@ export async function buildAssetDirectory(kind: DirectoryKind): Promise<AssetDir
     for (const result of settled) {
       if (result.status !== "fulfilled") continue;
       const stock = result.value;
-      const resolvedKind = stock.assetKind === "fii" || stock.ticker.endsWith("11") ? "fii" : "stock";
+      const resolvedKind = resolveAssetKind(stock);
       if (kind === "stock" && resolvedKind === "fii") continue;
       if (kind === "fii" && resolvedKind !== "fii") continue;
       items.push(itemFromStock(stock));

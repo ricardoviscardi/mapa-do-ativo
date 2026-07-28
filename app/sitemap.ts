@@ -5,6 +5,12 @@ import { getBaseUrl } from "@/lib/seo";
 import { allHubPages } from "@/lib/content/hub-pages";
 import { popularFIIs, popularStocks } from "@/lib/stocks/stock-list";
 
+const LOW_CONFIDENCE_SITEMAP_TICKERS = new Set(["AZUL4", "BCFF11", "CPLE6", "IRDM11", "PMLL11"]);
+
+function isSitemapReady(ticker: string): boolean {
+  return !LOW_CONFIDENCE_SITEMAP_TICKERS.has(ticker.toUpperCase());
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = getBaseUrl();
   const now = new Date();
@@ -50,14 +56,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.82
   }));
 
-  const stockRoutes = popularStocks.map((ticker) => ({
+  const stockRoutes = popularStocks.filter(isSitemapReady).map((ticker) => ({
     url: `${baseUrl}/acoes/${ticker.toLowerCase()}`,
     lastModified: now,
     changeFrequency: "daily" as const,
     priority: 0.9
   }));
 
-  const fiiRoutes = popularFIIs.map((ticker) => ({
+  const fiiRoutes = popularFIIs.filter(isSitemapReady).map((ticker) => ({
     url: `${baseUrl}/fiis/${ticker.toLowerCase()}`,
     lastModified: now,
     changeFrequency: "daily" as const,
