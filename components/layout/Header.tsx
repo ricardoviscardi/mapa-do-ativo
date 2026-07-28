@@ -21,9 +21,14 @@ export function Header() {
             href="/"
             className="flex shrink-0 items-center gap-2 font-bold text-[var(--color-primary)]"
           >
-            <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--color-primary)] text-sm text-white">
-              MA
-            </span>
+            <img
+              src="/android-chrome-192x192.png"
+              alt="Mapa do Ativo"
+              width={36}
+              height={36}
+              className="h-9 w-9 rounded-xl object-contain"
+              draggable={false}
+            />
             <span className="text-lg">Mapa do Ativo</span>
           </Link>
 
