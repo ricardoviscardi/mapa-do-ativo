@@ -1,5 +1,5 @@
 {
   "framework": "nextjs",
-  "installCommand": "npm ci --no-audit --no-fund --legacy-peer-deps",
-  "buildCommand": "npm run build"
+  "installCommand": "corepack enable && corepack prepare pnpm@10.14.0 --activate && pnpm install --no-frozen-lockfile",
+  "buildCommand": "pnpm run build"
 }

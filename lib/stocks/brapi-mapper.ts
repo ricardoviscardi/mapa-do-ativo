@@ -1220,8 +1220,8 @@ function extractHistory(
     ]),
   ];
 
-  const mapped = points
-    .map((point) => {
+  const mapped: StockHistoryPoint[] = points
+    .map((point): StockHistoryPoint | null => {
       const close =
         asNumber(point.close) ??
         asNumber(point.adjClose) ??
@@ -1246,10 +1246,10 @@ function extractHistory(
       return {
         date,
         close,
-        volume,
+        volume: volume ?? null,
       };
     })
-    .filter((point): point is StockHistoryPoint => Boolean(point))
+    .filter((point): point is StockHistoryPoint => point !== null)
     .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
   const unique = new Map<string, StockHistoryPoint>();
