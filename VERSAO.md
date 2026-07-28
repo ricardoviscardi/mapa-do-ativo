@@ -1,42 +1,29 @@
-# Versão atual — v1.56.4
+# Versão atual — v1.56.5
 
-## v1.56.4 — volume recuperado e nomes públicos mais limpos
+## v1.56.5 — pacote final para GitHub e Vercel
 
-Ajustes aplicados após teste local das rotas principais do Mapa do Ativo.
+Versão completa para substituição total dos arquivos do projeto Mapa do Ativo.
 
-### Correções
+### Correções desta versão
 
-- Recupera volume negociado a partir do histórico diário quando a cotação principal não retorna volume.
-- Mantém o campo Volume como "Não disponível" apenas quando nenhuma fonte confiável retorna volume positivo.
-- Inclui volume opcional nos pontos históricos, permitindo reaproveitar volume vindo do Yahoo Finance, brapi ou snapshot.
-- Preserva volume vindo do Supabase nos snapshots e no mapeamento interno.
-- Simplifica nomes públicos de FIIs quando a fonte retorna razão social longa demais. Exemplos esperados:
-  - MXRF11: Maxi Renda FII
-  - XPML11: XP Malls FII
-- Remove sufixos poluidores de nomes públicos, como ATZ, NM, N1 e N2, quando aparecem no título do ativo.
+- Ajusta `package.json` para Node `24.x`, evitando o bloqueio de deploy da Vercel por Node 20.
+- Sincroniza `package-lock.json` com os engines do pacote.
+- Adiciona `.npmrc` com instalação mais tolerante a dependências peer.
+- Adiciona `vercel.json` para declarar Next.js, comando de instalação e comando de build.
+- Adiciona `.env.example` com as variáveis necessárias para local, GitHub Actions e Vercel.
 
-### Mantido da v1.56.3
+### Mantido da v1.56.4
 
-- Endpoint /api/data/quality resiliente em modo local sem Supabase.
-- Correção da escala de variação diária.
-- Auditoria técnica degradada quando o Supabase não está configurado localmente.
+- Volume restaurado quando a fonte pública ou snapshot traz volume válido.
+- Nomes públicos mais limpos para ações e FIIs.
 - Identidade Mapa do Ativo aplicada.
+- Comparador com botão de remoção mais visível.
+- Endpoint `/api/data/quality` resiliente em ambiente local.
 
-### Testes recomendados
+### Arquivos propositalmente não incluídos
 
-```txt
-http://localhost:3000/api/data/quality
-http://localhost:3000/acoes/vale3
-http://localhost:3000/fiis/xpml11
-http://localhost:3000/fiis/mxrf11
-http://localhost:3000/acoes/petr4
-http://localhost:3000/acoes/bbas3
-```
-
-### Comandos
-
-```bash
-npm install
-npm run build
-npm run dev
-```
+- `node_modules/`
+- `.next/`
+- `.env.local`
+- arquivos de cache TypeScript
+- `__pycache__/` e `*.pyc`

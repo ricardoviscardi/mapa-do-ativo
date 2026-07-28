@@ -1,6 +1,6 @@
 {
   "name": "mapa-do-ativo",
-  "version": "0.1.0",
+  "version": "1.56.5",
   "private": true,
   "description": "Mapa do Ativo — do ativo ao patrimônio.",
   "scripts": {
@@ -11,9 +11,9 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "^15.5.22",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.0",
@@ -26,6 +26,8 @@
     "typescript": "^5.0.0"
   },
   "engines": {
-    "node": "24.x"
-  }
+    "node": "24.x",
+    "npm": ">=11"
+  },
+  "packageManager": "npm@11.5.1"
 }
