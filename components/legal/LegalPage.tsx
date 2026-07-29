@@ -1,9 +1,10 @@
+import type { ReactNode } from "react";
 import { Card } from "@/components/ui/Card";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 
 type LegalSection = {
   title: string;
-  content: string;
+  content: ReactNode;
 };
 
 type LegalPageProps = {
@@ -20,7 +21,7 @@ export function LegalPage({ title, description, sections }: LegalPageProps) {
         {sections.map((section) => (
           <Card key={section.title}>
             <h2 className="text-xl font-bold">{section.title}</h2>
-            <p className="mt-3 leading-7 text-[var(--color-muted)]">{section.content}</p>
+            <div className="mt-3 leading-7 text-[var(--color-muted)]">{section.content}</div>
           </Card>
         ))}
       </div>

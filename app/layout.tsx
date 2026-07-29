@@ -3,6 +3,9 @@ import "@/app/globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { getBaseUrl } from "@/lib/seo";
+import { GoogleConsentDefaults } from "@/components/analytics/GoogleConsentDefaults";
+import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
+import { CookieConsentBanner } from "@/components/privacy/CookieConsentBanner";
 
 const baseUrl = getBaseUrl();
 
@@ -70,12 +73,19 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const measurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+
   return (
     <html lang="pt-BR">
+      <head>
+        <GoogleConsentDefaults />
+      </head>
       <body className="min-h-screen antialiased">
         <Header />
         <main>{children}</main>
         <Footer />
+        <GoogleAnalytics measurementId={measurementId} />
+        <CookieConsentBanner />
       </body>
     </html>
   );

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CookiePreferencesButton } from "@/components/privacy/CookiePreferencesButton";
 
 export function Footer() {
   return (
@@ -37,6 +38,7 @@ export function Footer() {
             <Link href="/sobre">Sobre</Link>
             <Link href="/contato">Contato</Link>
             <Link href="/privacidade">Privacidade</Link>
+            <CookiePreferencesButton className="w-fit text-left hover:text-[var(--color-primary)]" />
             <Link href="/termos">Termos de uso</Link>
           </div>
         </div>

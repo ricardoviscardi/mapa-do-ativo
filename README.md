@@ -20,6 +20,7 @@ Entregar uma experiência clara para quem quer analisar ativos, comparar alterna
 - Raio-X de carteira.
 - Glossário, metodologia e páginas de transparência para dados em atualização.
 - Sitemap, robots e endpoints de diagnóstico preparados para deploy na Vercel.
+- Google Analytics 4 com consentimento prévio, opção de recusa e gestão posterior da preferência.
 - GitHub Actions para atualização de ações, FIIs e fundamentos CVM.
 
 ## Páginas principais
@@ -77,6 +78,7 @@ BRAPI_API_TOKEN=
 NEXT_PUBLIC_SITE_URL=https://mapa-do-ativo.vercel.app
 NEXT_PUBLIC_SHOW_DATA_WARNINGS=false
 MAPA_DO_ATIVO_BUILD_SKIP_EXTERNAL=false
+NEXT_PUBLIC_GA_MEASUREMENT_ID=
 ```
 
 ## Workflows principais
