@@ -1,0 +1,507 @@
+[
+  {
+    "ticker": "MXRF11",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 53,
+    "financial_rows": 0,
+    "indicator_rows": 11,
+    "price": 9.630000114440918,
+    "market_cap": 4422025216.0
+  },
+  {
+    "ticker": "KNCR11",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 54,
+    "financial_rows": 0,
+    "indicator_rows": 11,
+    "price": 106.86000061035156,
+    "market_cap": 8232777216.0
+  },
+  {
+    "ticker": "CPTS11",
+    "ok": true,
+    "history_rows": 2191,
+    "dividend_rows": 55,
+    "financial_rows": 0,
+    "indicator_rows": 10,
+    "price": 7.449999809265137,
+    "market_cap": 2460901888.0
+  },
+  {
+    "ticker": "HGLG11",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 54,
+    "financial_rows": 0,
+    "indicator_rows": 11,
+    "price": 146.89999389648438,
+    "market_cap": 4980964352.0
+  },
+  {
+    "ticker": "XPML11",
+    "ok": true,
+    "history_rows": 1532,
+    "dividend_rows": 53,
+    "financial_rows": 0,
+    "indicator_rows": 7,
+    "price": 104.83999633789062,
+    "market_cap": 5944239104.0
+  },
+  {
+    "ticker": "VISC11",
+    "ok": true,
+    "history_rows": 2174,
+    "dividend_rows": 52,
+    "financial_rows": 0,
+    "indicator_rows": 10,
+    "price": 105.33999633789062,
+    "market_cap": 3036520704.0
+  },
+  {
+    "ticker": "KNSC11",
+    "ok": true,
+    "history_rows": 1110,
+    "dividend_rows": 52,
+    "financial_rows": 0,
+    "indicator_rows": 5,
+    "price": 9.100000381469727,
+    "market_cap": 1843816192.0
+  },
+  {
+    "ticker": "RBRR11",
+    "ok": true,
+    "history_rows": 2047,
+    "dividend_rows": 51,
+    "financial_rows": 0,
+    "indicator_rows": 9,
+    "price": 75.06999969482422,
+    "market_cap": null
+  },
+  {
+    "ticker": "HGRU11",
+    "ok": true,
+    "history_rows": 1988,
+    "dividend_rows": 51,
+    "financial_rows": 0,
+    "indicator_rows": 9,
+    "price": 123.63999938964844,
+    "market_cap": 2867107328.0
+  },
+  {
+    "ticker": "BTLG11",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 54,
+    "financial_rows": 0,
+    "indicator_rows": 11,
+    "price": 100.20999908447266,
+    "market_cap": 4372338176.0
+  },
+  {
+    "ticker": "XPLG11",
+    "ok": true,
+    "history_rows": 1532,
+    "dividend_rows": 50,
+    "financial_rows": 0,
+    "indicator_rows": 7,
+    "price": 91.75,
+    "market_cap": 3683444224.0
+  },
+  {
+    "ticker": "KNRI11",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 54,
+    "financial_rows": 0,
+    "indicator_rows": 11,
+    "price": 155.83999633789062,
+    "market_cap": 4415625728.0
+  },
+  {
+    "ticker": "IRDM11",
+    "ok": true,
+    "history_rows": 1,
+    "dividend_rows": 0,
+    "financial_rows": 0,
+    "indicator_rows": 1,
+    "price": 58.5,
+    "market_cap": 2131378944.0
+  },
+  {
+    "ticker": "VGIR11",
+    "ok": true,
+    "history_rows": 1987,
+    "dividend_rows": 51,
+    "financial_rows": 0,
+    "indicator_rows": 9,
+    "price": 9.430000305175781,
+    "market_cap": 1087502464.0
+  },
+  {
+    "ticker": "RZTR11",
+    "ok": true,
+    "history_rows": 624,
+    "dividend_rows": 30,
+    "financial_rows": 0,
+    "indicator_rows": 3,
+    "price": 86.58999633789062,
+    "market_cap": 1653295744.0
+  },
+  {
+    "ticker": "TRXF11",
+    "ok": true,
+    "history_rows": 1622,
+    "dividend_rows": 51,
+    "financial_rows": 0,
+    "indicator_rows": 7,
+    "price": 91.0999984741211,
+    "market_cap": 2960138240.0
+  },
+  {
+    "ticker": "HSML11",
+    "ok": true,
+    "history_rows": 1730,
+    "dividend_rows": 52,
+    "financial_rows": 0,
+    "indicator_rows": 8,
+    "price": 86.12999725341797,
+    "market_cap": 1821166208.0
+  },
+  {
+    "ticker": "MALL11",
+    "ok": false,
+    "message": "Sem histórico retornado pelo Yahoo/yfinance e sem fallback útil na brapi.dev."
+  },
+  {
+    "ticker": "BCFF11",
+    "ok": false,
+    "message": "Sem histórico retornado pelo Yahoo/yfinance e sem fallback útil na brapi.dev."
+  },
+  {
+    "ticker": "RBRF11",
+    "ok": true,
+    "history_rows": 2191,
+    "dividend_rows": 45,
+    "financial_rows": 0,
+    "indicator_rows": 10,
+    "price": 6.650000095367432,
+    "market_cap": 909771200.0
+  },
+  {
+    "ticker": "PVBI11",
+    "ok": true,
+    "history_rows": 624,
+    "dividend_rows": 30,
+    "financial_rows": 0,
+    "indicator_rows": 3,
+    "price": 69.19999694824219,
+    "market_cap": 1880384896.0
+  },
+  {
+    "ticker": "BRCO11",
+    "ok": true,
+    "history_rows": 1653,
+    "dividend_rows": 53,
+    "financial_rows": 0,
+    "indicator_rows": 8,
+    "price": 113.72000122070312,
+    "market_cap": null
+  },
+  {
+    "ticker": "HGCR11",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 54,
+    "financial_rows": 0,
+    "indicator_rows": 11,
+    "price": 93.12999725341797,
+    "market_cap": 1435888128.0
+  },
+  {
+    "ticker": "RECR11",
+    "ok": true,
+    "history_rows": 1281,
+    "dividend_rows": 49,
+    "financial_rows": 0,
+    "indicator_rows": 6,
+    "price": 79.87000274658203,
+    "market_cap": 2982615040.0
+  },
+  {
+    "ticker": "KNIP11",
+    "ok": true,
+    "history_rows": 2191,
+    "dividend_rows": 54,
+    "financial_rows": 0,
+    "indicator_rows": 10,
+    "price": 91.12999725341797,
+    "market_cap": 7271899648.0
+  },
+  {
+    "ticker": "KNHY11",
+    "ok": true,
+    "history_rows": 1979,
+    "dividend_rows": 52,
+    "financial_rows": 0,
+    "indicator_rows": 9,
+    "price": 99.7699966430664,
+    "market_cap": 2814978816.0
+  },
+  {
+    "ticker": "VILG11",
+    "ok": true,
+    "history_rows": 1834,
+    "dividend_rows": 51,
+    "financial_rows": 0,
+    "indicator_rows": 8,
+    "price": 93.2300033569336,
+    "market_cap": 1385459456.0
+  },
+  {
+    "ticker": "RBRL11",
+    "ok": true,
+    "history_rows": 1110,
+    "dividend_rows": 51,
+    "financial_rows": 0,
+    "indicator_rows": 5,
+    "price": 71.66999816894531,
+    "market_cap": 479259776.0
+  },
+  {
+    "ticker": "GGRC11",
+    "ok": true,
+    "history_rows": 2191,
+    "dividend_rows": 52,
+    "financial_rows": 0,
+    "indicator_rows": 10,
+    "price": 9.899999618530273,
+    "market_cap": 1521507456.0
+  },
+  {
+    "ticker": "LVBI11",
+    "ok": true,
+    "history_rows": 1581,
+    "dividend_rows": 51,
+    "financial_rows": 0,
+    "indicator_rows": 7,
+    "price": 102.26000213623047,
+    "market_cap": null
+  },
+  {
+    "ticker": "ALZR11",
+    "ok": true,
+    "history_rows": 2128,
+    "dividend_rows": 51,
+    "financial_rows": 0,
+    "indicator_rows": 9,
+    "price": 9.899999618530273,
+    "market_cap": 1222049792.0
+  },
+  {
+    "ticker": "BCRI11",
+    "ok": true,
+    "history_rows": 2191,
+    "dividend_rows": 53,
+    "financial_rows": 0,
+    "indicator_rows": 10,
+    "price": 59.61000061035156,
+    "market_cap": 373282144.0
+  },
+  {
+    "ticker": "BRCR11",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 60,
+    "financial_rows": 0,
+    "indicator_rows": 11,
+    "price": 39.95000076293945,
+    "market_cap": 1067925504.0
+  },
+  {
+    "ticker": "DEVA11",
+    "ok": true,
+    "history_rows": 622,
+    "dividend_rows": 29,
+    "financial_rows": 0,
+    "indicator_rows": 3,
+    "price": 18.850000381469727,
+    "market_cap": 264886976.0
+  },
+  {
+    "ticker": "HCTR11",
+    "ok": true,
+    "history_rows": 1756,
+    "dividend_rows": 51,
+    "financial_rows": 0,
+    "indicator_rows": 8,
+    "price": 16.34000015258789,
+    "market_cap": 359972512.0
+  },
+  {
+    "ticker": "HGPO11",
+    "ok": true,
+    "history_rows": 1782,
+    "dividend_rows": 34,
+    "financial_rows": 0,
+    "indicator_rows": 8,
+    "price": 153.4199981689453,
+    "market_cap": null
+  },
+  {
+    "ticker": "HGRE11",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 54,
+    "financial_rows": 0,
+    "indicator_rows": 11,
+    "price": 117.80000305175781,
+    "market_cap": 1400641664.0
+  },
+  {
+    "ticker": "HSLG11",
+    "ok": true,
+    "history_rows": 622,
+    "dividend_rows": 30,
+    "financial_rows": 0,
+    "indicator_rows": 3,
+    "price": 90.16000366210938,
+    "market_cap": 1141811584.0
+  },
+  {
+    "ticker": "JSRE11",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 55,
+    "financial_rows": 0,
+    "indicator_rows": 11,
+    "price": 58.79999923706055,
+    "market_cap": 1223818624.0
+  },
+  {
+    "ticker": "KFOF11",
+    "ok": true,
+    "history_rows": 1848,
+    "dividend_rows": 52,
+    "financial_rows": 0,
+    "indicator_rows": 8,
+    "price": 78.55000305175781,
+    "market_cap": 555202816.0
+  },
+  {
+    "ticker": "KNCA11",
+    "ok": true,
+    "history_rows": 1132,
+    "dividend_rows": 52,
+    "financial_rows": 0,
+    "indicator_rows": 5,
+    "price": 90.87000274658203,
+    "market_cap": null
+  },
+  {
+    "ticker": "MCCI11",
+    "ok": true,
+    "history_rows": 1650,
+    "dividend_rows": 52,
+    "financial_rows": 0,
+    "indicator_rows": 8,
+    "price": 94.22000122070312,
+    "market_cap": 1604418304.0
+  },
+  {
+    "ticker": "OUJP11",
+    "ok": true,
+    "history_rows": 2191,
+    "dividend_rows": 54,
+    "financial_rows": 0,
+    "indicator_rows": 10,
+    "price": 71.97000122070312,
+    "market_cap": 237749264.0
+  },
+  {
+    "ticker": "RBRP11",
+    "ok": true,
+    "history_rows": 1976,
+    "dividend_rows": 52,
+    "financial_rows": 0,
+    "indicator_rows": 9,
+    "price": 45.599998474121094,
+    "market_cap": null
+  },
+  {
+    "ticker": "RBVA11",
+    "ok": true,
+    "history_rows": 1803,
+    "dividend_rows": 50,
+    "financial_rows": 0,
+    "indicator_rows": 8,
+    "price": 8.890000343322754,
+    "market_cap": 25013894.0
+  },
+  {
+    "ticker": "RECT11",
+    "ok": true,
+    "history_rows": 1805,
+    "dividend_rows": 51,
+    "financial_rows": 0,
+    "indicator_rows": 8,
+    "price": 35.099998474121094,
+    "market_cap": 27509978.0
+  },
+  {
+    "ticker": "TEPP11",
+    "ok": true,
+    "history_rows": 1553,
+    "dividend_rows": 51,
+    "financial_rows": 0,
+    "indicator_rows": 7,
+    "price": 7.860000133514404,
+    "market_cap": 391973696.0
+  },
+  {
+    "ticker": "URPR11",
+    "ok": true,
+    "history_rows": 625,
+    "dividend_rows": 30,
+    "financial_rows": 0,
+    "indicator_rows": 3,
+    "price": 19.010000228881836,
+    "market_cap": 226464160.0
+  },
+  {
+    "ticker": "VINO11",
+    "ok": true,
+    "history_rows": 1658,
+    "dividend_rows": 51,
+    "financial_rows": 0,
+    "indicator_rows": 8,
+    "price": 4.599999904632568,
+    "market_cap": 380172704.0
+  },
+  {
+    "ticker": "VRTA11",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 53,
+    "financial_rows": 0,
+    "indicator_rows": 11,
+    "price": 73.72000122070312,
+    "market_cap": 1146043136.0
+  },
+  {
+    "ticker": "XPIN11",
+    "ok": true,
+    "history_rows": 1532,
+    "dividend_rows": 52,
+    "financial_rows": 0,
+    "indicator_rows": 7,
+    "price": 62.040000915527344,
+    "market_cap": 443612192.0
+  },
+  {
+    "ticker": "XPPR11",
+    "ok": false,
+    "message": "Sem histórico retornado pelo Yahoo/yfinance e sem fallback útil na brapi.dev."
+  }
+]
