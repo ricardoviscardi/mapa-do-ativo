@@ -1,0 +1,1282 @@
+[
+  {
+    "ticker": "PETR4",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 61,
+    "financial_rows": 9,
+    "indicator_rows": 21,
+    "price": 43.04999923706055,
+    "market_cap": 588213059584.0
+  },
+  {
+    "ticker": "PETR3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 50,
+    "financial_rows": 9,
+    "indicator_rows": 17,
+    "price": 48.619998931884766,
+    "market_cap": 626650185728.0
+  },
+  {
+    "ticker": "VALE3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 38,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 74.63999938964844,
+    "market_cap": 317650108416.0
+  },
+  {
+    "ticker": "ITUB4",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 274,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 43.16999816894531,
+    "market_cap": 475814199296.0
+  },
+  {
+    "ticker": "ITUB3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 279,
+    "financial_rows": 9,
+    "indicator_rows": 20,
+    "price": 45.630001068115234,
+    "market_cap": 502904619008.0
+  },
+  {
+    "ticker": "BBAS3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 129,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 21.270000457763672,
+    "market_cap": 121427738624.0
+  },
+  {
+    "ticker": "BBDC4",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 266,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 18.549999237060547,
+    "market_cap": 201688367104.0
+  },
+  {
+    "ticker": "BBDC3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 266,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 16.18000030517578,
+    "market_cap": 183604969472.0
+  },
+  {
+    "ticker": "BBSE3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 28,
+    "financial_rows": 9,
+    "indicator_rows": 14,
+    "price": 41.36000061035156,
+    "market_cap": 80290037760.0
+  },
+  {
+    "ticker": "WEGE3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 108,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 48.20000076293945,
+    "market_cap": 202239000576.0
+  },
+  {
+    "ticker": "ABEV3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 53,
+    "financial_rows": 9,
+    "indicator_rows": 20,
+    "price": 15.770000457763672,
+    "market_cap": 243690586112.0
+  },
+  {
+    "ticker": "TAEE11",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 59,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 40.0,
+    "market_cap": 41340002304.0
+  },
+  {
+    "ticker": "EGIE3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 54,
+    "financial_rows": 10,
+    "indicator_rows": 20,
+    "price": 30.100000381469727,
+    "market_cap": 42633084928.0
+  },
+  {
+    "ticker": "CSMG3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 67,
+    "financial_rows": 9,
+    "indicator_rows": 17,
+    "price": 64.25,
+    "market_cap": 24362407936.0
+  },
+  {
+    "ticker": "RANI3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 47,
+    "financial_rows": 9,
+    "indicator_rows": 18,
+    "price": 8.420000076293945,
+    "market_cap": 1935725312.0
+  },
+  {
+    "ticker": "CMIG4",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 52,
+    "financial_rows": 10,
+    "indicator_rows": 17,
+    "price": 11.279999732971191,
+    "market_cap": 32268492800.0
+  },
+  {
+    "ticker": "CPLE6",
+    "ok": false,
+    "message": "Sem histórico retornado pelo Yahoo/yfinance e sem fallback útil na brapi.dev."
+  },
+  {
+    "ticker": "KLBN11",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 47,
+    "financial_rows": 9,
+    "indicator_rows": 13,
+    "price": 18.239999771118164,
+    "market_cap": 129614553088.0
+  },
+  {
+    "ticker": "SUZB3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 22,
+    "financial_rows": 10,
+    "indicator_rows": 17,
+    "price": 43.099998474121094,
+    "market_cap": 53206380544.0
+  },
+  {
+    "ticker": "RENT3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 87,
+    "financial_rows": 9,
+    "indicator_rows": 20,
+    "price": 38.099998474121094,
+    "market_cap": 42085826560.0
+  },
+  {
+    "ticker": "MGLU3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 17,
+    "financial_rows": 9,
+    "indicator_rows": 14,
+    "price": 5.159999847412109,
+    "market_cap": 4002397440.0
+  },
+  {
+    "ticker": "LREN3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 78,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 13.850000381469727,
+    "market_cap": 13313772544.0
+  },
+  {
+    "ticker": "RAIL3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 5,
+    "financial_rows": 9,
+    "indicator_rows": 11,
+    "price": 14.15999984741211,
+    "market_cap": 26276681728.0
+  },
+  {
+    "ticker": "B3SA3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 83,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 15.619999885559082,
+    "market_cap": 78073421824.0
+  },
+  {
+    "ticker": "ALPA4",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 43,
+    "financial_rows": 9,
+    "indicator_rows": 18,
+    "price": 12.479999542236328,
+    "market_cap": 8476447744.0
+  },
+  {
+    "ticker": "ASAI3",
+    "ok": true,
+    "history_rows": 1354,
+    "dividend_rows": 8,
+    "financial_rows": 9,
+    "indicator_rows": 6,
+    "price": 8.550000190734863,
+    "market_cap": 11443160064.0
+  },
+  {
+    "ticker": "AURE3",
+    "ok": true,
+    "history_rows": 1086,
+    "dividend_rows": 5,
+    "financial_rows": 9,
+    "indicator_rows": 5,
+    "price": 11.199999809265137,
+    "market_cap": 11699912704.0
+  },
+  {
+    "ticker": "AZUL4",
+    "ok": false,
+    "message": "Sem histórico retornado pelo Yahoo/yfinance e sem fallback útil na brapi.dev."
+  },
+  {
+    "ticker": "BEEF3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 13,
+    "financial_rows": 9,
+    "indicator_rows": 13,
+    "price": 3.640000104904175,
+    "market_cap": 3607760384.0
+  },
+  {
+    "ticker": "BPAC11",
+    "ok": true,
+    "history_rows": 2349,
+    "dividend_rows": 23,
+    "financial_rows": 9,
+    "indicator_rows": 10,
+    "price": 57.119998931884766,
+    "market_cap": 192469270528.0
+  },
+  {
+    "ticker": "BRAP4",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 34,
+    "financial_rows": 9,
+    "indicator_rows": 18,
+    "price": 21.5,
+    "market_cap": 8451576832.0
+  },
+  {
+    "ticker": "MBRF3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 11,
+    "financial_rows": 9,
+    "indicator_rows": 14,
+    "price": 17.700000762939453,
+    "market_cap": 24471609344.0
+  },
+  {
+    "ticker": "BRKM5",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 16,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 5.960000038146973,
+    "market_cap": 4749931520.0
+  },
+  {
+    "ticker": "BRSR6",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 89,
+    "financial_rows": 9,
+    "indicator_rows": 17,
+    "price": 14.0600004196167,
+    "market_cap": 5750181376.0
+  },
+  {
+    "ticker": "CCRO3",
+    "ok": false,
+    "message": "Sem histórico retornado pelo Yahoo/yfinance e sem fallback útil na brapi.dev."
+  },
+  {
+    "ticker": "CMIG3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 55,
+    "financial_rows": 10,
+    "indicator_rows": 19,
+    "price": 16.299999237060547,
+    "market_cap": 46629113856.0
+  },
+  {
+    "ticker": "CMIN3",
+    "ok": true,
+    "history_rows": 1359,
+    "dividend_rows": 17,
+    "financial_rows": 9,
+    "indicator_rows": 6,
+    "price": 5.730000019073486,
+    "market_cap": 30955956224.0
+  },
+  {
+    "ticker": "COGN3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 30,
+    "financial_rows": 9,
+    "indicator_rows": 14,
+    "price": 2.3299999237060547,
+    "market_cap": 4662863872.0
+  },
+  {
+    "ticker": "CPFE3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 26,
+    "financial_rows": 9,
+    "indicator_rows": 18,
+    "price": 46.11000061035156,
+    "market_cap": 53130452992.0
+  },
+  {
+    "ticker": "CPLE3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 36,
+    "financial_rows": 9,
+    "indicator_rows": 21,
+    "price": 14.869999885559082,
+    "market_cap": 44158107648.0
+  },
+  {
+    "ticker": "CSAN3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 22,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 4.099999904632568,
+    "market_cap": 16171902976.0
+  },
+  {
+    "ticker": "CSNA3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 28,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 4.510000228881836,
+    "market_cap": 5980683776.0
+  },
+  {
+    "ticker": "CURY3",
+    "ok": true,
+    "history_rows": 1459,
+    "dividend_rows": 17,
+    "financial_rows": 9,
+    "indicator_rows": 7,
+    "price": 31.450000762939453,
+    "market_cap": 9688096768.0
+  },
+  {
+    "ticker": "CYRE3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 21,
+    "financial_rows": 9,
+    "indicator_rows": 17,
+    "price": 21.5,
+    "market_cap": 7876457472.0
+  },
+  {
+    "ticker": "DIRR3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 22,
+    "financial_rows": 9,
+    "indicator_rows": 17,
+    "price": 11.75,
+    "market_cap": 6110044160.0
+  },
+  {
+    "ticker": "DXCO3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 30,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 5.190000057220459,
+    "market_cap": 4711747584.0
+  },
+  {
+    "ticker": "ECOR3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 21,
+    "financial_rows": 9,
+    "indicator_rows": 17,
+    "price": 7.03000020980835,
+    "market_cap": 4890217472.0
+  },
+  {
+    "ticker": "AXIA3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 18,
+    "financial_rows": 9,
+    "indicator_rows": 16,
+    "price": 53.560001373291016,
+    "market_cap": 122059505664.0
+  },
+  {
+    "ticker": "AXIA6",
+    "ok": true,
+    "history_rows": 1,
+    "dividend_rows": 0,
+    "financial_rows": 9,
+    "indicator_rows": 5,
+    "price": 55.779998779296875,
+    "market_cap": 125450723328.0
+  },
+  {
+    "ticker": "EMBJ3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 47,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 89.5999984741211,
+    "market_cap": 63780249600.0
+  },
+  {
+    "ticker": "ENEV3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 1,
+    "financial_rows": 9,
+    "indicator_rows": 12,
+    "price": 26.75,
+    "market_cap": 51066122240.0
+  },
+  {
+    "ticker": "ENGI11",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 35,
+    "financial_rows": 9,
+    "indicator_rows": 17,
+    "price": 50.189998626708984,
+    "market_cap": 15372343296.0
+  },
+  {
+    "ticker": "EQTL3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 28,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 38.88999938964844,
+    "market_cap": 48803684352.0
+  },
+  {
+    "ticker": "EVEN3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 20,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 4.949999809265137,
+    "market_cap": 982096448.0
+  },
+  {
+    "ticker": "EZTC3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 32,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 11.420000076293945,
+    "market_cap": 3167440384.0
+  },
+  {
+    "ticker": "FLRY3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 40,
+    "financial_rows": 9,
+    "indicator_rows": 17,
+    "price": 17.270000457763672,
+    "market_cap": 9388425216.0
+  },
+  {
+    "ticker": "GGBR4",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 93,
+    "financial_rows": 9,
+    "indicator_rows": 27,
+    "price": 25.6299991607666,
+    "market_cap": 50316320768.0
+  },
+  {
+    "ticker": "GOAU4",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 90,
+    "financial_rows": 9,
+    "indicator_rows": 27,
+    "price": 11.199999809265137,
+    "market_cap": 14816194560.0
+  },
+  {
+    "ticker": "HAPV3",
+    "ok": true,
+    "history_rows": 2054,
+    "dividend_rows": 11,
+    "financial_rows": 9,
+    "indicator_rows": 9,
+    "price": 11.90999984741211,
+    "market_cap": 5658297344.0
+  },
+  {
+    "ticker": "HYPE3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 47,
+    "financial_rows": 9,
+    "indicator_rows": 13,
+    "price": 21.520000457763672,
+    "market_cap": 15149914112.0
+  },
+  {
+    "ticker": "IRBR3",
+    "ok": true,
+    "history_rows": 2243,
+    "dividend_rows": 10,
+    "financial_rows": 11,
+    "indicator_rows": 10,
+    "price": 55.29999923706055,
+    "market_cap": 4488634368.0
+  },
+  {
+    "ticker": "ITSA3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 143,
+    "financial_rows": 9,
+    "indicator_rows": 21,
+    "price": 13.899999618530273,
+    "market_cap": 155838349312.0
+  },
+  {
+    "ticker": "ITSA4",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 141,
+    "financial_rows": 9,
+    "indicator_rows": 20,
+    "price": 13.880000114440918,
+    "market_cap": 155558019072.0
+  },
+  {
+    "ticker": "LEVE3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 45,
+    "financial_rows": 9,
+    "indicator_rows": 18,
+    "price": 32.34000015258789,
+    "market_cap": 4383331328.0
+  },
+  {
+    "ticker": "MDIA3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 54,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 17.530000686645508,
+    "market_cap": 5882577920.0
+  },
+  {
+    "ticker": "MILS3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 32,
+    "financial_rows": 9,
+    "indicator_rows": 16,
+    "price": 15.800000190734863,
+    "market_cap": 3599757312.0
+  },
+  {
+    "ticker": "MOVI3",
+    "ok": true,
+    "history_rows": 2291,
+    "dividend_rows": 24,
+    "financial_rows": 9,
+    "indicator_rows": 10,
+    "price": 7.650000095367432,
+    "market_cap": 3067927552.0
+  },
+  {
+    "ticker": "MRVE3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 24,
+    "financial_rows": 9,
+    "indicator_rows": 18,
+    "price": 4.679999828338623,
+    "market_cap": 2634065152.0
+  },
+  {
+    "ticker": "MULT3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 44,
+    "financial_rows": 9,
+    "indicator_rows": 18,
+    "price": 28.719999313354492,
+    "market_cap": 14102857728.0
+  },
+  {
+    "ticker": "NEOE3",
+    "ok": false,
+    "message": "Sem histórico retornado pelo Yahoo/yfinance e sem fallback útil na brapi.dev."
+  },
+  {
+    "ticker": "NATU3",
+    "ok": true,
+    "history_rows": 1087,
+    "dividend_rows": 24,
+    "financial_rows": 9,
+    "indicator_rows": 17,
+    "price": 8.5,
+    "market_cap": 11680993280.0
+  },
+  {
+    "ticker": "ODPV3",
+    "ok": false,
+    "message": "Sem histórico retornado pelo Yahoo/yfinance e sem fallback útil na brapi.dev."
+  },
+  {
+    "ticker": "PCAR3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 39,
+    "financial_rows": 7,
+    "indicator_rows": 19,
+    "price": 2.75,
+    "market_cap": 1354504576.0
+  },
+  {
+    "ticker": "POMO4",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 47,
+    "financial_rows": 9,
+    "indicator_rows": 18,
+    "price": 5.369999885559082,
+    "market_cap": 6666319360.0
+  },
+  {
+    "ticker": "PRIO3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 1,
+    "financial_rows": 9,
+    "indicator_rows": 11,
+    "price": 58.5,
+    "market_cap": 46687887360.0
+  },
+  {
+    "ticker": "PSSA3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 53,
+    "financial_rows": 9,
+    "indicator_rows": 18,
+    "price": 54.0,
+    "market_cap": 34613583872.0
+  },
+  {
+    "ticker": "RADL3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 83,
+    "financial_rows": 9,
+    "indicator_rows": 20,
+    "price": 18.850000381469727,
+    "market_cap": 32959907840.0
+  },
+  {
+    "ticker": "RAIZ4",
+    "ok": true,
+    "history_rows": 1245,
+    "dividend_rows": 10,
+    "financial_rows": 9,
+    "indicator_rows": 6,
+    "price": 0.25999999046325684,
+    "market_cap": 2689210112.0
+  },
+  {
+    "ticker": "RDOR3",
+    "ok": true,
+    "history_rows": 1401,
+    "dividend_rows": 21,
+    "financial_rows": 9,
+    "indicator_rows": 7,
+    "price": 34.060001373291016,
+    "market_cap": 74257874944.0
+  },
+  {
+    "ticker": "ROMI3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 50,
+    "financial_rows": 10,
+    "indicator_rows": 18,
+    "price": 5.960000038146973,
+    "market_cap": 555297664.0
+  },
+  {
+    "ticker": "SANB11",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 68,
+    "financial_rows": 9,
+    "indicator_rows": 17,
+    "price": 28.93000030517578,
+    "market_cap": 155454783488.0
+  },
+  {
+    "ticker": "SAPR11",
+    "ok": true,
+    "history_rows": 2137,
+    "dividend_rows": 20,
+    "financial_rows": 9,
+    "indicator_rows": 10,
+    "price": 35.619998931884766,
+    "market_cap": 10765824000.0
+  },
+  {
+    "ticker": "SBSP3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 25,
+    "financial_rows": 10,
+    "indicator_rows": 19,
+    "price": 27.56999969482422,
+    "market_cap": 96683319296.0
+  },
+  {
+    "ticker": "SLCE3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 21,
+    "financial_rows": 9,
+    "indicator_rows": 17,
+    "price": 13.350000381469727,
+    "market_cap": 6625756672.0
+  },
+  {
+    "ticker": "SMTO3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 27,
+    "financial_rows": 9,
+    "indicator_rows": 18,
+    "price": 14.380000114440918,
+    "market_cap": 4641479680.0
+  },
+  {
+    "ticker": "STBP3",
+    "ok": false,
+    "message": "Sem histórico retornado pelo Yahoo/yfinance e sem fallback útil na brapi.dev."
+  },
+  {
+    "ticker": "TIMS3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 45,
+    "financial_rows": 9,
+    "indicator_rows": 17,
+    "price": 19.280000686645508,
+    "market_cap": 46053527552.0
+  },
+  {
+    "ticker": "TOTS3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 48,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 31.739999771118164,
+    "market_cap": 18193209344.0
+  },
+  {
+    "ticker": "TRPL4",
+    "ok": false,
+    "message": "Sem histórico retornado pelo Yahoo/yfinance e sem fallback útil na brapi.dev."
+  },
+  {
+    "ticker": "UGPA3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 36,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 33.099998474121094,
+    "market_cap": 35377983488.0
+  },
+  {
+    "ticker": "USIM5",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 24,
+    "financial_rows": 9,
+    "indicator_rows": 18,
+    "price": 7.559999942779541,
+    "market_cap": 9305926656.0
+  },
+  {
+    "ticker": "VBBR3",
+    "ok": true,
+    "history_rows": 2084,
+    "dividend_rows": 23,
+    "financial_rows": 9,
+    "indicator_rows": 9,
+    "price": 36.130001068115234,
+    "market_cap": 43102343168.0
+  },
+  {
+    "ticker": "VIVT3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 115,
+    "financial_rows": 10,
+    "indicator_rows": 18,
+    "price": 32.29999923706055,
+    "market_cap": 103218077696.0
+  },
+  {
+    "ticker": "VIVR3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 0,
+    "financial_rows": 9,
+    "indicator_rows": 11,
+    "price": 1.6699999570846558,
+    "market_cap": 8149666.0
+  },
+  {
+    "ticker": "VLID3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 55,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 18.40999984741211,
+    "market_cap": 1440455040.0
+  },
+  {
+    "ticker": "WIZC3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 19,
+    "financial_rows": 9,
+    "indicator_rows": 12,
+    "price": 8.229999542236328,
+    "market_cap": 1316036864.0
+  },
+  {
+    "ticker": "YDUQ3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 21,
+    "financial_rows": 9,
+    "indicator_rows": 18,
+    "price": 8.380000114440918,
+    "market_cap": 2132280704.0
+  },
+  {
+    "ticker": "ANIM3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 9,
+    "financial_rows": 9,
+    "indicator_rows": 13,
+    "price": 2.180000066757202,
+    "market_cap": 823735232.0
+  },
+  {
+    "ticker": "ARZZ3",
+    "ok": false,
+    "message": "Sem histórico retornado pelo Yahoo/yfinance e sem fallback útil na brapi.dev."
+  },
+  {
+    "ticker": "BMGB4",
+    "ok": true,
+    "history_rows": 1659,
+    "dividend_rows": 18,
+    "financial_rows": 9,
+    "indicator_rows": 8,
+    "price": 5.400000095367432,
+    "market_cap": 3481929984.0
+  },
+  {
+    "ticker": "CAML3",
+    "ok": true,
+    "history_rows": 2200,
+    "dividend_rows": 36,
+    "financial_rows": 10,
+    "indicator_rows": 10,
+    "price": 4.809999942779541,
+    "market_cap": 1640552576.0
+  },
+  {
+    "ticker": "CEAB3",
+    "ok": true,
+    "history_rows": 1675,
+    "dividend_rows": 4,
+    "financial_rows": 9,
+    "indicator_rows": 8,
+    "price": 9.779999732971191,
+    "market_cap": 2934128128.0
+  },
+  {
+    "ticker": "CEBR6",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 17,
+    "financial_rows": 9,
+    "indicator_rows": 13,
+    "price": 27.360000610351562,
+    "market_cap": 1972161152.0
+  },
+  {
+    "ticker": "DESK3",
+    "ok": true,
+    "history_rows": 1255,
+    "dividend_rows": 6,
+    "financial_rows": 9,
+    "indicator_rows": 6,
+    "price": 18.649999618530273,
+    "market_cap": 2160784384.0
+  },
+  {
+    "ticker": "ENJU3",
+    "ok": true,
+    "history_rows": 1426,
+    "dividend_rows": 1,
+    "financial_rows": 9,
+    "indicator_rows": 7,
+    "price": 0.7300000190734863,
+    "market_cap": 149663136.0
+  },
+  {
+    "ticker": "ESPA3",
+    "ok": true,
+    "history_rows": 1369,
+    "dividend_rows": 5,
+    "financial_rows": 9,
+    "indicator_rows": 6,
+    "price": 8.180000305175781,
+    "market_cap": 293019904.0
+  },
+  {
+    "ticker": "GFSA3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 7,
+    "financial_rows": 9,
+    "indicator_rows": 17,
+    "price": 0.23999999463558197,
+    "market_cap": 37768156.0
+  },
+  {
+    "ticker": "HBSA3",
+    "ok": true,
+    "history_rows": 1455,
+    "dividend_rows": 0,
+    "financial_rows": 9,
+    "indicator_rows": 7,
+    "price": 3.2100000381469727,
+    "market_cap": 4366828032.0
+  },
+  {
+    "ticker": "IFCM3",
+    "ok": true,
+    "history_rows": 1307,
+    "dividend_rows": 0,
+    "financial_rows": 9,
+    "indicator_rows": 6,
+    "price": 1.440000057220459,
+    "market_cap": 39684600.0
+  },
+  {
+    "ticker": "JHSF3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 60,
+    "financial_rows": 9,
+    "indicator_rows": 18,
+    "price": 11.149999618530273,
+    "market_cap": 7433840128.0
+  },
+  {
+    "ticker": "KEPL3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 27,
+    "financial_rows": 9,
+    "indicator_rows": 14,
+    "price": 6.360000133514404,
+    "market_cap": 1101918720.0
+  },
+  {
+    "ticker": "LAVV3",
+    "ok": true,
+    "history_rows": 1470,
+    "dividend_rows": 20,
+    "financial_rows": 9,
+    "indicator_rows": 7,
+    "price": 10.359999656677246,
+    "market_cap": 2024699776.0
+  },
+  {
+    "ticker": "LOGG3",
+    "ok": true,
+    "history_rows": 1891,
+    "dividend_rows": 13,
+    "financial_rows": 9,
+    "indicator_rows": 9,
+    "price": 25.690000534057617,
+    "market_cap": 2246056704.0
+  },
+  {
+    "ticker": "LWSA3",
+    "ok": true,
+    "history_rows": 1614,
+    "dividend_rows": 5,
+    "financial_rows": 9,
+    "indicator_rows": 7,
+    "price": 3.8499999046325684,
+    "market_cap": 2114580864.0
+  },
+  {
+    "ticker": "MEAL3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 4,
+    "financial_rows": 9,
+    "indicator_rows": 13,
+    "price": 0.6100000143051147,
+    "market_cap": 174872688.0
+  },
+  {
+    "ticker": "MELK3",
+    "ok": true,
+    "history_rows": 1453,
+    "dividend_rows": 17,
+    "financial_rows": 9,
+    "indicator_rows": 7,
+    "price": 2.930000066757202,
+    "market_cap": 593534336.0
+  },
+  {
+    "ticker": "NGRD3",
+    "ok": true,
+    "history_rows": 1,
+    "dividend_rows": 0,
+    "financial_rows": 9,
+    "indicator_rows": 5,
+    "price": 34.279998779296875,
+    "market_cap": 311481056.0
+  },
+  {
+    "ticker": "OPCT3",
+    "ok": true,
+    "history_rows": 1363,
+    "dividend_rows": 1,
+    "financial_rows": 9,
+    "indicator_rows": 6,
+    "price": 10.779999732971191,
+    "market_cap": 2155514368.0
+  },
+  {
+    "ticker": "ORVR3",
+    "ok": true,
+    "history_rows": 1362,
+    "dividend_rows": 0,
+    "financial_rows": 9,
+    "indicator_rows": 6,
+    "price": 70.87000274658203,
+    "market_cap": 9732159488.0
+  },
+  {
+    "ticker": "PETZ3",
+    "ok": false,
+    "message": "Sem histórico retornado pelo Yahoo/yfinance e sem fallback útil na brapi.dev."
+  },
+  {
+    "ticker": "PLPL3",
+    "ok": true,
+    "history_rows": 1460,
+    "dividend_rows": 6,
+    "financial_rows": 9,
+    "indicator_rows": 7,
+    "price": 7.019999980926514,
+    "market_cap": 1424679296.0
+  },
+  {
+    "ticker": "PNVL3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 46,
+    "financial_rows": 9,
+    "indicator_rows": 19,
+    "price": 11.930000305175781,
+    "market_cap": 1777857152.0
+  },
+  {
+    "ticker": "SEQL3",
+    "ok": true,
+    "history_rows": 1446,
+    "dividend_rows": 0,
+    "financial_rows": 9,
+    "indicator_rows": 7,
+    "price": 0.07000000029802322,
+    "market_cap": 445934208.0
+  },
+  {
+    "ticker": "SIMH3",
+    "ok": true,
+    "history_rows": 1460,
+    "dividend_rows": 8,
+    "financial_rows": 9,
+    "indicator_rows": 7,
+    "price": 7.550000190734863,
+    "market_cap": 4407383040.0
+  },
+  {
+    "ticker": "SOJA3",
+    "ok": true,
+    "history_rows": 1312,
+    "dividend_rows": 8,
+    "financial_rows": 9,
+    "indicator_rows": 6,
+    "price": 5.53000020980835,
+    "market_cap": 780072384.0
+  },
+  {
+    "ticker": "TEND3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 12,
+    "financial_rows": 9,
+    "indicator_rows": 11,
+    "price": 31.690000534057617,
+    "market_cap": 3882437376.0
+  },
+  {
+    "ticker": "TRIS3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 18,
+    "financial_rows": 9,
+    "indicator_rows": 16,
+    "price": 4.260000228881836,
+    "market_cap": 994782464.0
+  },
+  {
+    "ticker": "TTEN3",
+    "ok": true,
+    "history_rows": 1258,
+    "dividend_rows": 5,
+    "financial_rows": 9,
+    "indicator_rows": 6,
+    "price": 11.729999542236328,
+    "market_cap": 5870166016.0
+  },
+  {
+    "ticker": "VAMO3",
+    "ok": true,
+    "history_rows": 1371,
+    "dividend_rows": 6,
+    "financial_rows": 9,
+    "indicator_rows": 6,
+    "price": 3.259999990463257,
+    "market_cap": 3982874112.0
+  },
+  {
+    "ticker": "VIVA3",
+    "ok": true,
+    "history_rows": 1692,
+    "dividend_rows": 9,
+    "financial_rows": 9,
+    "indicator_rows": 8,
+    "price": 22.84000015258789,
+    "market_cap": 5370484736.0
+  },
+  {
+    "ticker": "VULC3",
+    "ok": true,
+    "history_rows": 2490,
+    "dividend_rows": 35,
+    "financial_rows": 9,
+    "indicator_rows": 15,
+    "price": 14.180000305175781,
+    "market_cap": 4454121472.0
+  },
+  {
+    "ticker": "WEST3",
+    "ok": true,
+    "history_rows": 1363,
+    "dividend_rows": 1,
+    "financial_rows": 9,
+    "indicator_rows": 6,
+    "price": 3.1500000953674316,
+    "market_cap": 34994448.0
+  },
+  {
+    "ticker": "ZAMP3",
+    "ok": false,
+    "message": "Sem histórico retornado pelo Yahoo/yfinance e sem fallback útil na brapi.dev."
+  }
+]
