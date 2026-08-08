@@ -1,16 +1,67 @@
 {
   "version": "v1.53.33",
-  "generatedAt": "2026-08-08T03:13:47.139616+00:00",
-  "total": 49,
+  "generatedAt": "2026-08-08T10:38:02.727877+00:00",
+  "total": 172,
   "tickers": [
+    "ABEV3",
+    "ALPA4",
     "ALZR11",
+    "ANIM3",
+    "ASAI3",
+    "AURE3",
+    "AXIA3",
+    "AXIA6",
+    "B3SA3",
+    "BBAS3",
+    "BBDC3",
+    "BBDC4",
+    "BBSE3",
     "BCRI11",
+    "BEEF3",
+    "BMGB4",
+    "BPAC11",
+    "BRAP4",
     "BRCO11",
     "BRCR11",
+    "BRKM5",
+    "BRSR6",
     "BTLG11",
+    "CAML3",
+    "CEAB3",
+    "CEBR6",
+    "CMIG3",
+    "CMIG4",
+    "CMIN3",
+    "COGN3",
+    "CPFE3",
+    "CPLE3",
     "CPTS11",
+    "CSAN3",
+    "CSMG3",
+    "CSNA3",
+    "CURY3",
+    "CYRE3",
+    "DESK3",
     "DEVA11",
+    "DIRR3",
+    "DXCO3",
+    "ECOR3",
+    "EGIE3",
+    "EMBJ3",
+    "ENEV3",
+    "ENGI11",
+    "ENJU3",
+    "EQTL3",
+    "ESPA3",
+    "EVEN3",
+    "EZTC3",
+    "FLRY3",
+    "GFSA3",
+    "GGBR4",
     "GGRC11",
+    "GOAU4",
+    "HAPV3",
+    "HBSA3",
     "HCTR11",
     "HGCR11",
     "HGLG11",
@@ -19,41 +70,133 @@
     "HGRU11",
     "HSLG11",
     "HSML11",
+    "HYPE3",
+    "IFCM3",
+    "IRBR3",
     "IRDM11",
+    "ITSA3",
+    "ITSA4",
+    "ITUB3",
+    "ITUB4",
+    "JHSF3",
     "JSRE11",
+    "KEPL3",
     "KFOF11",
+    "KLBN11",
     "KNCA11",
     "KNCR11",
     "KNHY11",
     "KNIP11",
     "KNRI11",
     "KNSC11",
+    "LAVV3",
+    "LEVE3",
+    "LOGG3",
+    "LREN3",
     "LVBI11",
+    "LWSA3",
+    "MBRF3",
     "MCCI11",
+    "MDIA3",
+    "MEAL3",
+    "MELK3",
+    "MGLU3",
+    "MILS3",
+    "MOVI3",
+    "MRVE3",
+    "MULT3",
     "MXRF11",
+    "NATU3",
+    "NGRD3",
+    "OPCT3",
+    "ORVR3",
     "OUJP11",
+    "PCAR3",
+    "PETR3",
+    "PETR4",
+    "PLPL3",
+    "PNVL3",
+    "POMO4",
+    "PRIO3",
+    "PSSA3",
     "PVBI11",
+    "RADL3",
+    "RAIL3",
+    "RAIZ4",
+    "RANI3",
     "RBRF11",
     "RBRL11",
     "RBRP11",
     "RBRR11",
     "RBVA11",
+    "RDOR3",
     "RECR11",
     "RECT11",
+    "RENT3",
+    "ROMI3",
     "RZTR11",
+    "SANB11",
+    "SAPR11",
+    "SBSP3",
+    "SEQL3",
+    "SIMH3",
+    "SLCE3",
+    "SMTO3",
+    "SOJA3",
+    "SUZB3",
+    "TAEE11",
+    "TEND3",
     "TEPP11",
+    "TIMS3",
+    "TOTS3",
+    "TRIS3",
     "TRXF11",
+    "TTEN3",
+    "UGPA3",
     "URPR11",
+    "USIM5",
+    "VALE3",
+    "VAMO3",
+    "VBBR3",
     "VGIR11",
     "VILG11",
     "VINO11",
     "VISC11",
+    "VIVA3",
+    "VIVR3",
+    "VIVT3",
+    "VLID3",
     "VRTA11",
+    "VULC3",
+    "WEGE3",
+    "WEST3",
+    "WIZC3",
     "XPIN11",
     "XPLG11",
-    "XPML11"
+    "XPML11",
+    "YDUQ3"
   ],
   "items": [
+    {
+      "ticker": "ABEV3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 53,
+      "indicators": 30,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ABEV3.json"
+    },
+    {
+      "ticker": "ALPA4",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 43,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ALPA4.json"
+    },
     {
       "ticker": "ALZR11",
       "ok": true,
@@ -65,6 +208,106 @@
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ALZR11.json"
     },
     {
+      "ticker": "ANIM3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 9,
+      "indicators": 23,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ANIM3.json"
+    },
+    {
+      "ticker": "ASAI3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1359,
+      "financials": 9,
+      "dividends": 8,
+      "indicators": 16,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ASAI3.json"
+    },
+    {
+      "ticker": "AURE3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1091,
+      "financials": 9,
+      "dividends": 5,
+      "indicators": 15,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/AURE3.json"
+    },
+    {
+      "ticker": "AXIA3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 18,
+      "indicators": 26,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/AXIA3.json"
+    },
+    {
+      "ticker": "AXIA6",
+      "ok": true,
+      "quotes": 1,
+      "history": 1,
+      "financials": 9,
+      "dividends": 0,
+      "indicators": 15,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/AXIA6.json"
+    },
+    {
+      "ticker": "B3SA3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 83,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/B3SA3.json"
+    },
+    {
+      "ticker": "BBAS3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 129,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/BBAS3.json"
+    },
+    {
+      "ticker": "BBDC3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 267,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/BBDC3.json"
+    },
+    {
+      "ticker": "BBDC4",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 267,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/BBDC4.json"
+    },
+    {
+      "ticker": "BBSE3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 29,
+      "indicators": 24,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/BBSE3.json"
+    },
+    {
       "ticker": "BCRI11",
       "ok": true,
       "quotes": 1,
@@ -73,6 +316,46 @@
       "dividends": 54,
       "indicators": 20,
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/BCRI11.json"
+    },
+    {
+      "ticker": "BEEF3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 13,
+      "indicators": 23,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/BEEF3.json"
+    },
+    {
+      "ticker": "BMGB4",
+      "ok": true,
+      "quotes": 1,
+      "history": 1664,
+      "financials": 9,
+      "dividends": 18,
+      "indicators": 18,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/BMGB4.json"
+    },
+    {
+      "ticker": "BPAC11",
+      "ok": true,
+      "quotes": 1,
+      "history": 2354,
+      "financials": 9,
+      "dividends": 23,
+      "indicators": 20,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/BPAC11.json"
+    },
+    {
+      "ticker": "BRAP4",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 34,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/BRAP4.json"
     },
     {
       "ticker": "BRCO11",
@@ -95,6 +378,26 @@
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/BRCR11.json"
     },
     {
+      "ticker": "BRKM5",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 16,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/BRKM5.json"
+    },
+    {
+      "ticker": "BRSR6",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 89,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/BRSR6.json"
+    },
+    {
       "ticker": "BTLG11",
       "ok": true,
       "quotes": 1,
@@ -103,6 +406,96 @@
       "dividends": 54,
       "indicators": 21,
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/BTLG11.json"
+    },
+    {
+      "ticker": "CAML3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2205,
+      "financials": 10,
+      "dividends": 36,
+      "indicators": 20,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/CAML3.json"
+    },
+    {
+      "ticker": "CEAB3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1680,
+      "financials": 9,
+      "dividends": 4,
+      "indicators": 18,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/CEAB3.json"
+    },
+    {
+      "ticker": "CEBR6",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 17,
+      "indicators": 23,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/CEBR6.json"
+    },
+    {
+      "ticker": "CMIG3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 55,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/CMIG3.json"
+    },
+    {
+      "ticker": "CMIG4",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 52,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/CMIG4.json"
+    },
+    {
+      "ticker": "CMIN3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1364,
+      "financials": 9,
+      "dividends": 17,
+      "indicators": 16,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/CMIN3.json"
+    },
+    {
+      "ticker": "COGN3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 30,
+      "indicators": 24,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/COGN3.json"
+    },
+    {
+      "ticker": "CPFE3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 27,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/CPFE3.json"
+    },
+    {
+      "ticker": "CPLE3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 36,
+      "indicators": 31,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/CPLE3.json"
     },
     {
       "ticker": "CPTS11",
@@ -115,6 +508,66 @@
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/CPTS11.json"
     },
     {
+      "ticker": "CSAN3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 22,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/CSAN3.json"
+    },
+    {
+      "ticker": "CSMG3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 67,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/CSMG3.json"
+    },
+    {
+      "ticker": "CSNA3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 28,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/CSNA3.json"
+    },
+    {
+      "ticker": "CURY3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1464,
+      "financials": 9,
+      "dividends": 17,
+      "indicators": 17,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/CURY3.json"
+    },
+    {
+      "ticker": "CYRE3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 21,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/CYRE3.json"
+    },
+    {
+      "ticker": "DESK3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1260,
+      "financials": 9,
+      "dividends": 6,
+      "indicators": 16,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/DESK3.json"
+    },
+    {
       "ticker": "DEVA11",
       "ok": true,
       "quotes": 1,
@@ -125,6 +578,156 @@
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/DEVA11.json"
     },
     {
+      "ticker": "DIRR3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 22,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/DIRR3.json"
+    },
+    {
+      "ticker": "DXCO3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 30,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/DXCO3.json"
+    },
+    {
+      "ticker": "ECOR3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 21,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ECOR3.json"
+    },
+    {
+      "ticker": "EGIE3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 54,
+      "indicators": 30,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/EGIE3.json"
+    },
+    {
+      "ticker": "EMBJ3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 47,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/EMBJ3.json"
+    },
+    {
+      "ticker": "ENEV3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 1,
+      "indicators": 22,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ENEV3.json"
+    },
+    {
+      "ticker": "ENGI11",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 35,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ENGI11.json"
+    },
+    {
+      "ticker": "ENJU3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1431,
+      "financials": 9,
+      "dividends": 1,
+      "indicators": 17,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ENJU3.json"
+    },
+    {
+      "ticker": "EQTL3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 28,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/EQTL3.json"
+    },
+    {
+      "ticker": "ESPA3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1374,
+      "financials": 9,
+      "dividends": 5,
+      "indicators": 16,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ESPA3.json"
+    },
+    {
+      "ticker": "EVEN3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 20,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/EVEN3.json"
+    },
+    {
+      "ticker": "EZTC3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 32,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/EZTC3.json"
+    },
+    {
+      "ticker": "FLRY3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 40,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/FLRY3.json"
+    },
+    {
+      "ticker": "GFSA3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 7,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/GFSA3.json"
+    },
+    {
+      "ticker": "GGBR4",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 93,
+      "indicators": 37,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/GGBR4.json"
+    },
+    {
       "ticker": "GGRC11",
       "ok": true,
       "quotes": 1,
@@ -133,6 +736,36 @@
       "dividends": 53,
       "indicators": 20,
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/GGRC11.json"
+    },
+    {
+      "ticker": "GOAU4",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 90,
+      "indicators": 37,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/GOAU4.json"
+    },
+    {
+      "ticker": "HAPV3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2059,
+      "financials": 9,
+      "dividends": 11,
+      "indicators": 19,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/HAPV3.json"
+    },
+    {
+      "ticker": "HBSA3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1460,
+      "financials": 9,
+      "dividends": 0,
+      "indicators": 17,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/HBSA3.json"
     },
     {
       "ticker": "HCTR11",
@@ -215,6 +848,36 @@
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/HSML11.json"
     },
     {
+      "ticker": "HYPE3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 47,
+      "indicators": 23,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/HYPE3.json"
+    },
+    {
+      "ticker": "IFCM3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1312,
+      "financials": 9,
+      "dividends": 0,
+      "indicators": 16,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/IFCM3.json"
+    },
+    {
+      "ticker": "IRBR3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2248,
+      "financials": 11,
+      "dividends": 10,
+      "indicators": 20,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/IRBR3.json"
+    },
+    {
       "ticker": "IRDM11",
       "ok": true,
       "quotes": 1,
@@ -223,6 +886,56 @@
       "dividends": 0,
       "indicators": 11,
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/IRDM11.json"
+    },
+    {
+      "ticker": "ITSA3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 143,
+      "indicators": 31,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ITSA3.json"
+    },
+    {
+      "ticker": "ITSA4",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 141,
+      "indicators": 30,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ITSA4.json"
+    },
+    {
+      "ticker": "ITUB3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 279,
+      "indicators": 30,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ITUB3.json"
+    },
+    {
+      "ticker": "ITUB4",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 274,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ITUB4.json"
+    },
+    {
+      "ticker": "JHSF3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 60,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/JHSF3.json"
     },
     {
       "ticker": "JSRE11",
@@ -235,6 +948,16 @@
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/JSRE11.json"
     },
     {
+      "ticker": "KEPL3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 27,
+      "indicators": 24,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/KEPL3.json"
+    },
+    {
       "ticker": "KFOF11",
       "ok": true,
       "quotes": 1,
@@ -243,6 +966,16 @@
       "dividends": 53,
       "indicators": 18,
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/KFOF11.json"
+    },
+    {
+      "ticker": "KLBN11",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 47,
+      "indicators": 23,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/KLBN11.json"
     },
     {
       "ticker": "KNCA11",
@@ -305,6 +1038,46 @@
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/KNSC11.json"
     },
     {
+      "ticker": "LAVV3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1475,
+      "financials": 9,
+      "dividends": 20,
+      "indicators": 17,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/LAVV3.json"
+    },
+    {
+      "ticker": "LEVE3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 45,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/LEVE3.json"
+    },
+    {
+      "ticker": "LOGG3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1896,
+      "financials": 9,
+      "dividends": 13,
+      "indicators": 19,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/LOGG3.json"
+    },
+    {
+      "ticker": "LREN3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 78,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/LREN3.json"
+    },
+    {
       "ticker": "LVBI11",
       "ok": true,
       "quotes": 1,
@@ -313,6 +1086,26 @@
       "dividends": 52,
       "indicators": 17,
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/LVBI11.json"
+    },
+    {
+      "ticker": "LWSA3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1619,
+      "financials": 9,
+      "dividends": 5,
+      "indicators": 17,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/LWSA3.json"
+    },
+    {
+      "ticker": "MBRF3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 11,
+      "indicators": 24,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/MBRF3.json"
     },
     {
       "ticker": "MCCI11",
@@ -325,6 +1118,86 @@
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/MCCI11.json"
     },
     {
+      "ticker": "MDIA3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 54,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/MDIA3.json"
+    },
+    {
+      "ticker": "MEAL3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 4,
+      "indicators": 23,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/MEAL3.json"
+    },
+    {
+      "ticker": "MELK3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1458,
+      "financials": 9,
+      "dividends": 17,
+      "indicators": 17,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/MELK3.json"
+    },
+    {
+      "ticker": "MGLU3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 17,
+      "indicators": 24,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/MGLU3.json"
+    },
+    {
+      "ticker": "MILS3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 32,
+      "indicators": 26,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/MILS3.json"
+    },
+    {
+      "ticker": "MOVI3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2296,
+      "financials": 9,
+      "dividends": 24,
+      "indicators": 20,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/MOVI3.json"
+    },
+    {
+      "ticker": "MRVE3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 24,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/MRVE3.json"
+    },
+    {
+      "ticker": "MULT3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 44,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/MULT3.json"
+    },
+    {
       "ticker": "MXRF11",
       "ok": true,
       "quotes": 1,
@@ -333,6 +1206,46 @@
       "dividends": 54,
       "indicators": 21,
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/MXRF11.json"
+    },
+    {
+      "ticker": "NATU3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1099,
+      "financials": 9,
+      "dividends": 24,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/NATU3.json"
+    },
+    {
+      "ticker": "NGRD3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1,
+      "financials": 9,
+      "dividends": 0,
+      "indicators": 15,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/NGRD3.json"
+    },
+    {
+      "ticker": "OPCT3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1368,
+      "financials": 9,
+      "dividends": 1,
+      "indicators": 16,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/OPCT3.json"
+    },
+    {
+      "ticker": "ORVR3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1367,
+      "financials": 9,
+      "dividends": 0,
+      "indicators": 16,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ORVR3.json"
     },
     {
       "ticker": "OUJP11",
@@ -345,6 +1258,86 @@
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/OUJP11.json"
     },
     {
+      "ticker": "PCAR3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 7,
+      "dividends": 39,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/PCAR3.json"
+    },
+    {
+      "ticker": "PETR3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 50,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/PETR3.json"
+    },
+    {
+      "ticker": "PETR4",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 61,
+      "indicators": 31,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/PETR4.json"
+    },
+    {
+      "ticker": "PLPL3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1465,
+      "financials": 9,
+      "dividends": 6,
+      "indicators": 17,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/PLPL3.json"
+    },
+    {
+      "ticker": "PNVL3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 46,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/PNVL3.json"
+    },
+    {
+      "ticker": "POMO4",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 47,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/POMO4.json"
+    },
+    {
+      "ticker": "PRIO3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 1,
+      "indicators": 21,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/PRIO3.json"
+    },
+    {
+      "ticker": "PSSA3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 53,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/PSSA3.json"
+    },
+    {
       "ticker": "PVBI11",
       "ok": true,
       "quotes": 1,
@@ -353,6 +1346,46 @@
       "dividends": 31,
       "indicators": 13,
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/PVBI11.json"
+    },
+    {
+      "ticker": "RADL3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 83,
+      "indicators": 30,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/RADL3.json"
+    },
+    {
+      "ticker": "RAIL3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 5,
+      "indicators": 21,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/RAIL3.json"
+    },
+    {
+      "ticker": "RAIZ4",
+      "ok": true,
+      "quotes": 1,
+      "history": 1250,
+      "financials": 9,
+      "dividends": 10,
+      "indicators": 16,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/RAIZ4.json"
+    },
+    {
+      "ticker": "RANI3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 47,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/RANI3.json"
     },
     {
       "ticker": "RBRF11",
@@ -405,6 +1438,16 @@
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/RBVA11.json"
     },
     {
+      "ticker": "RDOR3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1406,
+      "financials": 9,
+      "dividends": 21,
+      "indicators": 17,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/RDOR3.json"
+    },
+    {
       "ticker": "RECR11",
       "ok": true,
       "quotes": 1,
@@ -425,6 +1468,26 @@
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/RECT11.json"
     },
     {
+      "ticker": "RENT3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 87,
+      "indicators": 30,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/RENT3.json"
+    },
+    {
+      "ticker": "ROMI3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 50,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/ROMI3.json"
+    },
+    {
       "ticker": "RZTR11",
       "ok": true,
       "quotes": 1,
@@ -433,6 +1496,116 @@
       "dividends": 31,
       "indicators": 13,
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/RZTR11.json"
+    },
+    {
+      "ticker": "SANB11",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 68,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/SANB11.json"
+    },
+    {
+      "ticker": "SAPR11",
+      "ok": true,
+      "quotes": 1,
+      "history": 2142,
+      "financials": 9,
+      "dividends": 20,
+      "indicators": 20,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/SAPR11.json"
+    },
+    {
+      "ticker": "SBSP3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 25,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/SBSP3.json"
+    },
+    {
+      "ticker": "SEQL3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1451,
+      "financials": 9,
+      "dividends": 0,
+      "indicators": 17,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/SEQL3.json"
+    },
+    {
+      "ticker": "SIMH3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1465,
+      "financials": 9,
+      "dividends": 8,
+      "indicators": 17,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/SIMH3.json"
+    },
+    {
+      "ticker": "SLCE3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 21,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/SLCE3.json"
+    },
+    {
+      "ticker": "SMTO3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 27,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/SMTO3.json"
+    },
+    {
+      "ticker": "SOJA3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1317,
+      "financials": 9,
+      "dividends": 8,
+      "indicators": 16,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/SOJA3.json"
+    },
+    {
+      "ticker": "SUZB3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 22,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/SUZB3.json"
+    },
+    {
+      "ticker": "TAEE11",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 59,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/TAEE11.json"
+    },
+    {
+      "ticker": "TEND3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 12,
+      "indicators": 21,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/TEND3.json"
     },
     {
       "ticker": "TEPP11",
@@ -445,6 +1618,36 @@
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/TEPP11.json"
     },
     {
+      "ticker": "TIMS3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 45,
+      "indicators": 27,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/TIMS3.json"
+    },
+    {
+      "ticker": "TOTS3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 48,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/TOTS3.json"
+    },
+    {
+      "ticker": "TRIS3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 18,
+      "indicators": 26,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/TRIS3.json"
+    },
+    {
       "ticker": "TRXF11",
       "ok": true,
       "quotes": 1,
@@ -455,6 +1658,26 @@
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/TRXF11.json"
     },
     {
+      "ticker": "TTEN3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1263,
+      "financials": 9,
+      "dividends": 5,
+      "indicators": 16,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/TTEN3.json"
+    },
+    {
+      "ticker": "UGPA3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 36,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/UGPA3.json"
+    },
+    {
       "ticker": "URPR11",
       "ok": true,
       "quotes": 1,
@@ -463,6 +1686,46 @@
       "dividends": 31,
       "indicators": 13,
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/URPR11.json"
+    },
+    {
+      "ticker": "USIM5",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 24,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/USIM5.json"
+    },
+    {
+      "ticker": "VALE3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 10,
+      "dividends": 38,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/VALE3.json"
+    },
+    {
+      "ticker": "VAMO3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1376,
+      "financials": 9,
+      "dividends": 6,
+      "indicators": 16,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/VAMO3.json"
+    },
+    {
+      "ticker": "VBBR3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2089,
+      "financials": 9,
+      "dividends": 23,
+      "indicators": 19,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/VBBR3.json"
     },
     {
       "ticker": "VGIR11",
@@ -505,6 +1768,46 @@
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/VISC11.json"
     },
     {
+      "ticker": "VIVA3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1697,
+      "financials": 9,
+      "dividends": 9,
+      "indicators": 18,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/VIVA3.json"
+    },
+    {
+      "ticker": "VIVR3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 0,
+      "indicators": 21,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/VIVR3.json"
+    },
+    {
+      "ticker": "VIVT3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 11,
+      "dividends": 115,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/VIVT3.json"
+    },
+    {
+      "ticker": "VLID3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 55,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/VLID3.json"
+    },
+    {
       "ticker": "VRTA11",
       "ok": true,
       "quotes": 1,
@@ -513,6 +1816,46 @@
       "dividends": 54,
       "indicators": 21,
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/VRTA11.json"
+    },
+    {
+      "ticker": "VULC3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 35,
+      "indicators": 25,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/VULC3.json"
+    },
+    {
+      "ticker": "WEGE3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 108,
+      "indicators": 29,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/WEGE3.json"
+    },
+    {
+      "ticker": "WEST3",
+      "ok": true,
+      "quotes": 1,
+      "history": 1368,
+      "financials": 9,
+      "dividends": 1,
+      "indicators": 16,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/WEST3.json"
+    },
+    {
+      "ticker": "WIZC3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 19,
+      "indicators": 22,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/WIZC3.json"
     },
     {
       "ticker": "XPIN11",
@@ -543,6 +1886,16 @@
       "dividends": 53,
       "indicators": 17,
       "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/XPML11.json"
+    },
+    {
+      "ticker": "YDUQ3",
+      "ok": true,
+      "quotes": 1,
+      "history": 2502,
+      "financials": 9,
+      "dividends": 21,
+      "indicators": 28,
+      "file": "/home/runner/work/mapa-do-ativo/mapa-do-ativo/public/data/snapshots/stocks/YDUQ3.json"
     }
   ]
 }

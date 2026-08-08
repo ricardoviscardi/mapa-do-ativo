@@ -1,0 +1,492 @@
+[
+  {
+    "ticker": "ALZR11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "BCRI11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "IRDM11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "GGRC11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "RBRL11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "VILG11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "KNHY11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "LVBI11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "BRCO11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "PVBI11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "RBRF11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "HSML11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "TRXF11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "VGIR11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "KNRI11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "RZTR11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "XPLG11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "BTLG11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "RBRR11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "KNSC11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "VISC11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "RECR11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "XPML11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "CPTS11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "HGLG11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "KNCR11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "KNIP11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "KFOF11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "RECT11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "RBRP11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "TEPP11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "DEVA11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "KNCA11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "HGCR11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "HGRE11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "URPR11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "XPIN11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "MCCI11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "HCTR11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "RBVA11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "BRCR11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "HSLG11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "JSRE11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "MXRF11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "VRTA11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "HGRU11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "HGPO11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "OUJP11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  },
+  {
+    "ticker": "VINO11",
+    "ok": true,
+    "cnpj": null,
+    "cad_match": false,
+    "informe": false,
+    "years": [],
+    "financial": 0,
+    "indicator": 0
+  }
+]
